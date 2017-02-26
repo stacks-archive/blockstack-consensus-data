@@ -1,0 +1,809 @@
+[2017-02-24 17:33:32,649] [DEBUG] [spv:110] (16513.140250828647240) Using testnet/regtest
+[2017-02-24 17:33:32,654] [DEBUG] [blockstack-test-scenario:198] (16513.140250828647240) Load scenario blockstack_integration_tests.scenarios.namespace_preorder_reveal
+[2017-02-24 17:33:32,654] [DEBUG] [blockstack-test-scenario:205] (16513.140250828647240) Identifying scenario path
+[2017-02-24 17:33:33,944] [DEBUG] [blockstack-test-scenario:217] (16513.140250828647240) Path of blockstack_integration_tests.scenarios.namespace_preorder_reveal is blockstack_integration_tests/scenarios/namespace_preorder_reveal.py
+TEST ACTIVE: FIRST_BLOCK_MAINNET = 256
+[2017-02-24 17:33:34,090] [WARNING] [config:438] (16513.140250828647240) (16513): in test environment
+[2017-02-24 17:33:34,090] [WARNING] [config:459] (16513.140250828647240) NUM_CONFIRMATIONS = 0
+[2017-02-24 17:33:34,622] [DEBUG] [testlib:78] (16513.140250828647240) Wallet 6e50431b955fe73f079469b24f06480aee44e4519282686433195b3c4b5336ef (mgoZn4k6LuqiTYsVqQz9eu4LgpGVSz6NUC)
+[2017-02-24 17:33:35,055] [DEBUG] [testlib:78] (16513.140250828647240) Wallet c244642ce0b4eb68da8e098facfcad889e3063c36a68b7951fb4c085de49df1b (mxHH7Fch85gD2i74yaWQxeqBkwk2NvzdWq)
+[2017-02-24 17:33:35,092] [DEBUG] [blockstack-test-scenario:747] (16513.140250828647240) Starting up bitcoind in regtest mode
+Bitcoin server starting
+[2017-02-24 17:33:35,109] [DEBUG] [blockstack-test-scenario:754] (16513.140250828647240) Waiting for bitcoind to start up
+[2017-02-24 17:33:36,110] [DEBUG] [session:129] (16513.140250828647240) [16513] Connect to bitcoind at http://blockstack@localhost:18332, timeout=60.0
+[2017-02-24 17:33:37,113] [DEBUG] [session:129] (16513.140250828647240) [16513] Connect to bitcoind at http://blockstack@localhost:18332, timeout=60.0
+[2017-02-24 17:33:38,115] [DEBUG] [session:129] (16513.140250828647240) [16513] Connect to bitcoind at http://blockstack@localhost:18332, timeout=60.0
+[2017-02-24 17:33:39,118] [DEBUG] [session:129] (16513.140250828647240) [16513] Connect to bitcoind at http://blockstack@localhost:18332, timeout=60.0
+[2017-02-24 17:33:40,120] [DEBUG] [session:129] (16513.140250828647240) [16513] Connect to bitcoind at http://blockstack@localhost:18332, timeout=60.0
+[2017-02-24 17:33:41,123] [DEBUG] [session:129] (16513.140250828647240) [16513] Connect to bitcoind at http://blockstack@localhost:18332, timeout=60.0
+[2017-02-24 17:33:42,125] [DEBUG] [session:129] (16513.140250828647240) [16513] Connect to bitcoind at http://blockstack@localhost:18332, timeout=60.0
+[2017-02-24 17:33:43,129] [DEBUG] [session:129] (16513.140250828647240) [16513] Connect to bitcoind at http://blockstack@localhost:18332, timeout=60.0
+[2017-02-24 17:33:44,132] [DEBUG] [session:129] (16513.140250828647240) [16513] Connect to bitcoind at http://blockstack@localhost:18332, timeout=60.0
+[2017-02-24 17:33:44,134] [DEBUG] [session:129] (16513.140250828647240) [16513] Connect to bitcoind at http://blockstack@localhost:18332, timeout=60.0
+[2017-02-24 17:33:44,499] [DEBUG] [blockstack-test-scenario:777] (16513.140250828647240) bitcoind -regtest is ready
+[2017-02-24 17:33:45,009] [DEBUG] [testlib:91] (16513.140250828647240) Multisig wallet 2MzigrtcR3PfZZW6wK5W16SMcZa5b2LRhxz
+[2017-02-24 17:33:45,010] [DEBUG] [session:129] (16513.140250828647240) [16513] Connect to bitcoind at http://blockstack@localhost:18332, timeout=60.0
+[2017-02-24 17:33:45,354] [DEBUG] [blockstack-test-scenario:795] (16513.140250828647240) Fill mgoZn4k6LuqiTYsVqQz9eu4LgpGVSz6NUC with 50
+[2017-02-24 17:33:45,757] [DEBUG] [blockstack-test-scenario:795] (16513.140250828647240) Fill mxHH7Fch85gD2i74yaWQxeqBkwk2NvzdWq with 50
+[2017-02-24 17:33:47,497] [DEBUG] [blockstack-test-scenario:813] (16513.140250828647240) Fill 2MzigrtcR3PfZZW6wK5W16SMcZa5b2LRhxz with 250
+
+Address mgoZn4k6LuqiTYsVqQz9eu4LgpGVSz6NUC loaded with 5000000000 satoshis
+Address mxHH7Fch85gD2i74yaWQxeqBkwk2NvzdWq loaded with 5000000000 satoshis
+Address 2MzigrtcR3PfZZW6wK5W16SMcZa5b2LRhxz loaded with 25000000000 satoshis
+
+[2017-02-24 17:33:47,908] [DEBUG] [blockstack-test-scenario:380] (16513.140250828647240) atexit_cleanup
+[2017-02-24 17:33:47,908] [DEBUG] [config:1081] (16513.140250828647240) Load config from '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.ini'
+Saving configuration to /tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.ini
+Saving configuration to /tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/client/client.ini
+TEST ACTIVE: TX_MIN_CONFIRMATIONS = 0
+TEST ACTIVE: CONFIG_PATH = /tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/client/client.ini
+
+blockstack opts
+{
+    "atlasdb_path": "/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/atlas.db", 
+    "data_servers": "True", 
+    "data_storage_drivers": "disk", 
+    "serve_zonefiles": true, 
+    "profile_storage_drivers": "disk", 
+    "backup_max_age": 30, 
+    "serve_profiles": true, 
+    "atlas": true, 
+    "analytics_key": "abcdef0123456789", 
+    "email": "", 
+    "atlas_hostname": "localhost", 
+    "zonefile_storage_drivers": "disk", 
+    "serve_data": true, 
+    "zonefiles": "/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/zonefiles", 
+    "server_version": "0.14.1", 
+    "announcers": "judecn.id,muneeb.id,shea256.id", 
+    "atlas_seeds": "", 
+    "redirect_data": false, 
+    "rpc_port": 16264, 
+    "backup_frequency": 1, 
+    "atlas_blacklist": ""
+}
+
+blockchain opts
+{
+    "bitcoind_passwd": "blockstacksystem", 
+    "bitcoind_user": "blockstack", 
+    "bitcoind_server": "localhost", 
+    "bitcoind_spv_path": "/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/spv_headers.dat", 
+    "bitcoind_p2p_port": 18444, 
+    "bitcoind_port": 18332, 
+    "bitcoind_regtest": true
+}
+
+blockchain service opts
+{
+    "multiprocessing_num_procs": 1, 
+    "spv_headers_path": "/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/spv_headers.dat", 
+    "rpc_password": "blockstacksystem", 
+    "utxo_provider": "bitcoind_utxo", 
+    "port": 18332, 
+    "rpc_username": "blockstack", 
+    "multiprocessing_num_blocks": 10, 
+    "blockchain_port": 18332, 
+    "server": "localhost", 
+    "version_byte": 0, 
+    "use_https": false, 
+    "blockchain_server": "localhost"
+}
+blockchain headers: /tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/spv_headers.dat
+
+atlas node initialization[2017-02-24 17:33:47,944] [DEBUG] [namedb:96] (16513.140250828647240) Initialize database from '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.db'
+[2017-02-24 17:33:48,636] [DEBUG] [indexer:206] (16513.140250828647240) consensus snapshots at '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.snapshots'
+[2017-02-24 17:33:48,637] [DEBUG] [indexer:236] (16513.140250828647240) lastblock at '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock'
+[2017-02-24 17:33:48,637] [DEBUG] [indexer:238] (16513.140250828647240) Store lastblock 255 to /tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock
+[2017-02-24 17:33:48,638] [DEBUG] [atlas:1281] (16513.140250828647240) Initializing Atlas DB at /tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/atlas.db
+[2017-02-24 17:33:48,787] [DEBUG] [atlas:1292] (16513.140250828647240) Queuing all zonefiles
+[2017-02-24 17:33:48,787] [DEBUG] [atlas:859] (16513.140250828647240) Queued 0 zonefiles from 256-255
+[2017-02-24 17:33:48,787] [DEBUG] [atlas:1295] (16513.140250828647240) Adding seed peers
+[2017-02-24 17:33:48,788] [DEBUG] [session:129] (16513.140250828647240) [16513] Connect to bitcoind at http://blockstack@localhost:18332, timeout=60.0
+[2017-02-24 17:33:48,788] [DEBUG] [atlas:1252] (16513.140250828647240) Atlas DB exists at /tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/atlas.db
+[2017-02-24 17:33:48,788] [DEBUG] [atlas:1259] (16513.140250828647240) Synchronize zonefiles from 256 to 255
+[2017-02-24 17:33:48,788] [DEBUG] [atlas:859] (16513.140250828647240) Queued 0 zonefiles from 256-255
+[2017-02-24 17:33:48,788] [DEBUG] [atlas:1263] (16513.140250828647240) Refreshing seed peers
+[2017-02-24 17:33:48,789] [DEBUG] [atlas:1272] (16513.140250828647240) Loading peer table
+[2017-02-24 17:33:48,789] [DEBUG] [atlas:3866] (16513.140250828647240) Starting Atlas component 'health_checker'
+[2017-02-24 17:33:48,789] [DEBUG] [atlas:3348] (16513.140250826787504) localhost:16264: AtlasHealthChecker step
+[2017-02-24 17:33:48,789] [DEBUG] [atlas:3866] (16513.140250828647240) Starting Atlas component 'peer_crawler'
+[2017-02-24 17:33:48,790] [DEBUG] [atlas:3236] (16513.140250826697392) localhost:16264: AtlasPeerCrawler step
+[2017-02-24 17:33:48,790] [DEBUG] [atlas:3866] (16513.140250828647240) Starting Atlas component 'zonefile_crawler'
+[2017-02-24 17:33:48,790] [DEBUG] [atlas:3240] (16513.140250826697392) localhost:16264: max neighbors is 80
+[2017-02-24 17:33:48,790] [DEBUG] [atlas:3575] (16513.140250743052976) localhost:16264: AtlasZonefileCrawler step
+[2017-02-24 17:33:48,790] [DEBUG] [blockstackd:1914] (16513.140250828647240) Starting RPC
+[2017-02-24 17:33:48,790] [INFO] [blockstackd:332] (16513.140250742962864) Listening on 0.0.0.0:16264
+[2017-02-24 17:33:48,791] [DEBUG] [blockstackd:1947] (16513.140250828647240) Starting storage pusher
+[2017-02-24 17:33:48,791] [DEBUG] [session:129] (16513.140250695670448) [16513] Connect to bitcoind at http://blockstack@localhost:18332, timeout=60.0
+[2017-02-24 17:33:48,793] [DEBUG] [atlas:3172] (16513.140250826697392) Add at most 10 new peers out of 0 options
+[2017-02-24 17:33:48,793] [DEBUG] [atlas:3201] (16513.140250826697392) localhost:16264: revalidate old peers
+[2017-02-24 17:33:48,796] [DEBUG] [atlas:2324] (16513.140250743052976) Missing 0 zonefiles
+[2017-02-24 17:33:48,797] [DEBUG] [atlas:3617] (16513.140250743052976) localhost:16264: missing 0 unique zonefiles
+[2017-02-24 17:33:48,797] [DEBUG] [atlas:3719] (16513.140250743052976) localhost:16264: fetched 0 zonefiles
+[2017-02-24 17:33:48,801] [DEBUG] [blockstackd:304] (16513.140250742962864) Inbound RPC begin rpc_getinfo(())
+[2017-02-24 17:33:48,801] [DEBUG] [session:129] (16513.140250742962864) [16513] Connect to bitcoind at http://blockstack@localhost:18332, timeout=300.0
+[2017-02-24 17:33:48,909] [DEBUG] [namedb:98] (16513.140250742962864) Connect to database '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.db'
+[2017-02-24 17:33:48,909] [DEBUG] [indexer:190] (16513.140250742962864) consensus snapshots at '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.snapshots'
+[2017-02-24 17:33:48,909] [DEBUG] [indexer:225] (16513.140250742962864) lastblock at '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock'
+[2017-02-24 17:33:48,909] [DEBUG] [indexer:228] (16513.140250742962864) Lastblock: 255 (/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock)
+[2017-02-24 17:33:48,915] [DEBUG] [blockstackd:314] (16513.140250742962864) Inbound RPC end rpc_getinfo(())
+127.0.0.1 - - [24/Feb/2017 17:33:48] "POST /RPC2 HTTP/1.0" 200 -
+[2017-02-24 17:33:48,917] [DEBUG] [session:129] (16513.140250828647240) [16513] Connect to bitcoind at http://blockstack@localhost:18332, timeout=60.0
+[2017-02-24 17:33:49,050] [DEBUG] [blockstack-test-scenario:875] (16513.140250828647240) next block (now at 256)
+[2017-02-24 17:33:49,050] [DEBUG] [session:129] (16513.140250828647240) [16513] Connect to bitcoind at http://blockstack@localhost:18332, timeout=60.0
+[2017-02-24 17:33:49,051] [DEBUG] [namedb:98] (16513.140250828647240) Connect to database '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.db'
+[2017-02-24 17:33:49,072] [DEBUG] [indexer:190] (16513.140250828647240) consensus snapshots at '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.snapshots'
+[2017-02-24 17:33:49,072] [DEBUG] [indexer:225] (16513.140250828647240) lastblock at '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock'
+[2017-02-24 17:33:49,073] [DEBUG] [indexer:228] (16513.140250828647240) Lastblock: 255 (/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock)
+[2017-02-24 17:33:49,073] [DEBUG] [blockstack-test-scenario:413] (16513.140250828647240) sync virtualchain up to 256
+[2017-02-24 17:33:49,073] [DEBUG] [indexer:1127] (16513.140250828647240) Sync virtualchain state from 256 to 257
+[2017-02-24 17:33:49,073] [DEBUG] [transactions:86] (16513.140250828647240) Will download SPV headers to /tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/spv_headers.dat
+[2017-02-24 17:33:49,074] [DEBUG] [spv:744] (16513.140250828647240) Synchronize testnet 0 to 256
+[2017-02-24 17:33:49,074] [DEBUG] [spv:764] (16513.140250828647240) connect to localhost:18444
+[2017-02-24 17:33:49,074] [DEBUG] [spv:368] (16513.140250828647240) handshake (version 60002)
+[2017-02-24 17:33:49,074] [DEBUG] [spv:371] (16513.140250828647240) send Version
+[2017-02-24 17:33:49,075] [DEBUG] [spv:384] (16513.140250828647240) handle version
+[2017-02-24 17:33:49,075] [DEBUG] [spv:386] (16513.140250828647240) send VerAck
+[2017-02-24 17:33:49,075] [DEBUG] [spv:358] (16513.140250828647240) send getheaders
+[2017-02-24 17:33:49,118] [DEBUG] [spv:403] (16513.140250828647240) handle ping
+[2017-02-24 17:33:49,118] [DEBUG] [spv:406] (16513.140250828647240) send pong
+[2017-02-24 17:33:49,124] [DEBUG] [spv:250] (16513.140250828647240) handle headers (256)
+[2017-02-24 17:33:49,124] [DEBUG] [spv:272] (16513.140250828647240) Receive 256 testnet headers (0 to 255)
+[2017-02-24 17:33:49,143] [DEBUG] [spv:782] (16513.140250828647240) synced headers from -1 to 256 in /tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/spv_headers.dat
+[2017-02-24 17:33:49,144] [DEBUG] [blocks:118] (16513.140250828647240) BlockDownloader: fetch blocks 256-256
+[2017-02-24 17:33:49,144] [DEBUG] [blocks:302] (16513.140250828647240) handshake (version 60002)
+[2017-02-24 17:33:49,144] [DEBUG] [blocks:305] (16513.140250828647240) send Version
+[2017-02-24 17:33:49,144] [DEBUG] [blocks:318] (16513.140250828647240) handle version
+[2017-02-24 17:33:49,145] [DEBUG] [blocks:320] (16513.140250828647240) send VerAck
+[2017-02-24 17:33:49,145] [DEBUG] [blocks:336] (16513.140250828647240) send getdata for 256-256 (6dba25114a4fdcf8cbf3cf377b922c70edbc9c831bce5ec1a3c69faedca5e034-6dba25114a4fdcf8cbf3cf377b922c70edbc9c831bce5ec1a3c69faedca5e034)
+[2017-02-24 17:33:49,187] [DEBUG] [blocks:361] (16513.140250828647240) handle ping
+[2017-02-24 17:33:49,187] [DEBUG] [blocks:364] (16513.140250828647240) send pong
+[2017-02-24 17:33:49,588] [DEBUG] [blocks:198] (16513.140250828647240) num blocks received = 0, num requested = 1
+[2017-02-24 17:33:49,589] [DEBUG] [blocks:566] (16513.140250828647240) handle block 256 (6dba25114a4fdcf8cbf3cf377b922c70edbc9c831bce5ec1a3c69faedca5e034)
+[2017-02-24 17:33:49,589] [DEBUG] [blocks:654] (16513.140250828647240) Request 0 nulldata sender TXs
+[2017-02-24 17:33:49,589] [DEBUG] [indexer:1067] (16513.140250828647240) Process block 256 (0 virtual transactions)
+[2017-02-24 17:33:49,589] [DEBUG] [indexer:809] (16513.140250828647240) Snapshotting block 256
+[2017-02-24 17:33:49,590] [DEBUG] [indexer:730] (16513.140250828647240) Snapshot('5df6e0e2761359d30a8275058e299fcc0381534545f55cf43e41983f5d4c9456', [])
+[2017-02-24 17:33:49,590] [DEBUG] [namedb:753] (16513.140250828647240) Get all ops at 256 in /tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.db
+[2017-02-24 17:33:49,590] [DEBUG] [db:1834] (16513.140250828647240) 0 name-preorder/import states at 256
+[2017-02-24 17:33:49,590] [DEBUG] [db:1889] (16513.140250828647240) 0 name-change states at 256
+[2017-02-24 17:33:49,591] [DEBUG] [db:1935] (16513.140250828647240) 0 preorders created at 256
+[2017-02-24 17:33:49,591] [DEBUG] [db:1979] (16513.140250828647240) 0 namespace-preorder states at 256
+[2017-02-24 17:33:49,591] [DEBUG] [db:2027] (16513.140250828647240) 0 namespace-change states at 256
+[2017-02-24 17:33:49,674] [DEBUG] [namedb:1751] (16513.140250828647240) ops hash at 256 is 5df6e0e2761359d30a8275058e299fcc0381534545f55cf43e41983f5d4c9456
+[2017-02-24 17:33:49,674] [DEBUG] [virtualchain_hooks:410] (16513.140250828647240) Synchronize Atlas DB for 255
+[2017-02-24 17:33:49,692] [DEBUG] [namedb:753] (16513.140250828647240) Get all ops at 255 in /tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.db
+[2017-02-24 17:33:49,692] [DEBUG] [db:1834] (16513.140250828647240) 0 name-preorder/import states at 255
+[2017-02-24 17:33:49,692] [DEBUG] [db:1889] (16513.140250828647240) 0 name-change states at 255
+[2017-02-24 17:33:49,692] [DEBUG] [db:1935] (16513.140250828647240) 0 preorders created at 255
+[2017-02-24 17:33:49,692] [DEBUG] [db:1979] (16513.140250828647240) 0 namespace-preorder states at 255
+[2017-02-24 17:33:49,692] [DEBUG] [db:2027] (16513.140250828647240) 0 namespace-change states at 255
+[2017-02-24 17:33:49,692] [DEBUG] [atlas:859] (16513.140250828647240) Queued 0 zonefiles from 255-255
+[2017-02-24 17:33:49,731] [DEBUG] [indexer:391] (16513.140250828647240) Rename 'lastblock': /tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock.tmp --> /tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock
+[2017-02-24 17:33:49,757] [DEBUG] [indexer:391] (16513.140250828647240) Rename 'snapshots': /tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.snapshots.tmp --> /tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.snapshots
+[2017-02-24 17:33:49,782] [DEBUG] [indexer:1156] (16513.140250828647240) CONSENSUS(256): 2a9148d8b13939723d2aca16c75c6d68
+[2017-02-24 17:33:49,782] [DEBUG] [indexer:1170] (16513.140250828647240) Last block is 256
+[2017-02-24 17:33:49,782] [INFO] [virtualchain:80] (16513.140250828647240) 0 seconds
+[2017-02-24 17:33:49,783] [DEBUG] [namedb:98] (16513.140250828647240) Connect to database '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.db'
+[2017-02-24 17:33:49,793] [DEBUG] [atlas:3348] (16513.140250826787504) localhost:16264: AtlasHealthChecker step
+[2017-02-24 17:33:49,798] [DEBUG] [atlas:3236] (16513.140250826697392) localhost:16264: AtlasPeerCrawler step
+[2017-02-24 17:33:49,799] [DEBUG] [atlas:3575] (16513.140250743052976) localhost:16264: AtlasZonefileCrawler step
+[2017-02-24 17:33:49,799] [DEBUG] [atlas:3172] (16513.140250826697392) Add at most 10 new peers out of 0 options
+[2017-02-24 17:33:49,800] [DEBUG] [atlas:2324] (16513.140250743052976) Missing 0 zonefiles
+[2017-02-24 17:33:49,800] [DEBUG] [atlas:3617] (16513.140250743052976) localhost:16264: missing 0 unique zonefiles
+[2017-02-24 17:33:49,800] [DEBUG] [atlas:3719] (16513.140250743052976) localhost:16264: fetched 0 zonefiles
+[2017-02-24 17:33:49,832] [DEBUG] [indexer:190] (16513.140250828647240) consensus snapshots at '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.snapshots'
+[2017-02-24 17:33:49,833] [DEBUG] [indexer:225] (16513.140250828647240) lastblock at '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock'
+[2017-02-24 17:33:49,833] [DEBUG] [indexer:228] (16513.140250828647240) Lastblock: 256 (/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock)
+[2017-02-24 17:33:49,835] [DEBUG] [blockstack-test-scenario:423] (16513.140250828647240) sync atlas node up to 256
+[2017-02-24 17:33:49,835] [DEBUG] [blockstack-test-scenario:428] (16513.140250828647240) Synchronize Atlas DB from 256 to 257
+[2017-02-24 17:33:49,836] [DEBUG] [namedb:753] (16513.140250828647240) Get all ops at 256 in /tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.db
+[2017-02-24 17:33:49,837] [DEBUG] [db:1834] (16513.140250828647240) 0 name-preorder/import states at 256
+[2017-02-24 17:33:49,838] [DEBUG] [db:1889] (16513.140250828647240) 0 name-change states at 256
+[2017-02-24 17:33:49,838] [DEBUG] [db:1935] (16513.140250828647240) 0 preorders created at 256
+[2017-02-24 17:33:49,838] [DEBUG] [db:1979] (16513.140250828647240) 0 namespace-preorder states at 256
+[2017-02-24 17:33:49,839] [DEBUG] [db:2027] (16513.140250828647240) 0 namespace-change states at 256
+[2017-02-24 17:33:49,839] [DEBUG] [atlas:859] (16513.140250828647240) Queued 0 zonefiles from 256-256
+[2017-02-24 17:33:49,841] [DEBUG] [db:234] (16513.140250828647240) /usr/bin/sqlite3 /tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.db .backup "/tmp/blockstack-test-databases-UTj4MH/blockstack.db.256"
+[2017-02-24 17:33:49,921] [DEBUG] [client:86] (16513.140250828647240) Connect to localhost:16264
+[2017-02-24 17:33:49,935] [DEBUG] [client:120] (16513.140250828647240) Loaded storage driver "disk"
+[2017-02-24 17:33:49,936] [DEBUG] [blockstackd:304] (16513.140250742962864) Inbound RPC begin rpc_get_namespace_cost(('test',))
+[2017-02-24 17:33:49,936] [DEBUG] [namedb:98] (16513.140250742962864) Connect to database '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.db'
+[2017-02-24 17:33:49,937] [DEBUG] [indexer:190] (16513.140250742962864) consensus snapshots at '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.snapshots'
+[2017-02-24 17:33:49,937] [DEBUG] [indexer:225] (16513.140250742962864) lastblock at '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock'
+[2017-02-24 17:33:49,937] [DEBUG] [indexer:228] (16513.140250742962864) Lastblock: 256 (/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock)
+[2017-02-24 17:33:49,938] [DEBUG] [blockstackd:314] (16513.140250742962864) Inbound RPC end rpc_get_namespace_cost(('test',))
+127.0.0.1 - - [24/Feb/2017 17:33:49] "POST /RPC2 HTTP/1.0" 200 -
+[2017-02-24 17:33:50,139] [DEBUG] [blockstackd:304] (16513.140250742962864) Inbound RPC begin rpc_getinfo(())
+[2017-02-24 17:33:50,140] [DEBUG] [session:129] (16513.140250742962864) [16513] Connect to bitcoind at http://blockstack@localhost:18332, timeout=300.0
+[2017-02-24 17:33:50,141] [DEBUG] [namedb:98] (16513.140250742962864) Connect to database '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.db'
+[2017-02-24 17:33:50,142] [DEBUG] [indexer:190] (16513.140250742962864) consensus snapshots at '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.snapshots'
+[2017-02-24 17:33:50,142] [DEBUG] [indexer:225] (16513.140250742962864) lastblock at '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock'
+[2017-02-24 17:33:50,142] [DEBUG] [indexer:228] (16513.140250742962864) Lastblock: 256 (/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock)
+[2017-02-24 17:33:50,147] [DEBUG] [blockstackd:314] (16513.140250742962864) Inbound RPC end rpc_getinfo(())
+127.0.0.1 - - [24/Feb/2017 17:33:50] "POST /RPC2 HTTP/1.0" 200 -
+[2017-02-24 17:33:50,150] [DEBUG] [blockchain:57] (16513.140250828647240) Connect to bitcoind at localhost:18332 (/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/client/client.ini)
+[2017-02-24 17:33:50,150] [DEBUG] [session:129] (16513.140250828647240) [16513] Connect to bitcoind at http://blockstack@localhost:18332, timeout=300.0
+[2017-02-24 17:33:50,152] [DEBUG] [blockstackd:304] (16513.140250742962864) Inbound RPC begin rpc_get_namespace_blockchain_record(('test',))
+[2017-02-24 17:33:50,152] [DEBUG] [namedb:98] (16513.140250742962864) Connect to database '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.db'
+[2017-02-24 17:33:50,153] [DEBUG] [indexer:190] (16513.140250742962864) consensus snapshots at '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.snapshots'
+[2017-02-24 17:33:50,153] [DEBUG] [indexer:225] (16513.140250742962864) lastblock at '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock'
+[2017-02-24 17:33:50,153] [DEBUG] [indexer:228] (16513.140250742962864) Lastblock: 256 (/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock)
+[2017-02-24 17:33:50,154] [DEBUG] [blockstackd:314] (16513.140250742962864) Inbound RPC end rpc_get_namespace_blockchain_record(('test',))
+127.0.0.1 - - [24/Feb/2017 17:33:50] "POST /RPC2 HTTP/1.0" 200 -
+[2017-02-24 17:33:50,795] [DEBUG] [atlas:3348] (16513.140250826787504) localhost:16264: AtlasHealthChecker step
+[2017-02-24 17:33:50,808] [DEBUG] [atlas:3236] (16513.140250826697392) localhost:16264: AtlasPeerCrawler step
+[2017-02-24 17:33:50,813] [DEBUG] [atlas:3575] (16513.140250743052976) localhost:16264: AtlasZonefileCrawler step
+[2017-02-24 17:33:50,831] [DEBUG] [atlas:3172] (16513.140250826697392) Add at most 10 new peers out of 0 options
+[2017-02-24 17:33:50,883] [DEBUG] [atlas:2324] (16513.140250743052976) Missing 0 zonefiles
+[2017-02-24 17:33:50,890] [DEBUG] [atlas:3617] (16513.140250743052976) localhost:16264: missing 0 unique zonefiles
+[2017-02-24 17:33:50,894] [DEBUG] [atlas:3719] (16513.140250743052976) localhost:16264: fetched 0 zonefiles
+[2017-02-24 17:33:51,099] [DEBUG] [keys:827] (16513.140250828647240) High-S to low-S
+[2017-02-24 17:33:51,106] [DEBUG] [blockchain:57] (16513.140250828647240) Connect to bitcoind at localhost:18332 (/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/client/client.ini)
+[2017-02-24 17:33:51,106] [DEBUG] [session:129] (16513.140250828647240) [16513] Connect to bitcoind at http://blockstack@localhost:18332, timeout=300.0
+[2017-02-24 17:33:51,107] [DEBUG] [nameops:639] (16513.140250828647240) namespace preorder tx 308 bytes, 1654 satoshis
+[2017-02-24 17:33:51,107] [DEBUG] [nameops:1446] (16513.140250828647240) Preordering namespace (test, mgoZn4k6LuqiTYsVqQz9eu4LgpGVSz6NUC, mxHH7Fch85gD2i74yaWQxeqBkwk2NvzdWq), tx_fee = 1654.0
+[2017-02-24 17:33:51,845] [DEBUG] [tx:144] (16513.140250828647240) Send 0100000001d04cd25d8ddaaa833a42c2762e23f04450a23b71b8061ae73fd902a9e6d962e0000000008b4830450221009a8b16347c8d4f62942c3b3cdb498e483628bcbfadbb1bcb5e7bda7229d63cd00220498f4a4fc089127d7d618c377d803e153c01ec1e76c325133d93b4b90b3e4460014104d6fd1ba0effaf1e8d94ea7b7a3d0ef26fea00a14ce5ffcc1495fe588a2c6d0f35eaa22c01a35bee5817f03d769a3a38a3bb50182c61449ad125555daf26396fbffffffff030000000000000000296a2769642adb207fcd2150f332a53a8ff0be2a12a85445a2a92a9148d8b13939723d2aca16c75c6d6806002e12010000001976a9140e1c669e2756a79185299cb25ed043ab145f08f088ac0084d717000000001976a914000000000000000000000000000000000000000088ac00000000
+[2017-02-24 17:33:51,806] [DEBUG] [atlas:3348] (16513.140250826787504) localhost:16264: AtlasHealthChecker step
+[2017-02-24 17:33:51,847] [DEBUG] [session:129] (16513.140250828647240) [16513] Connect to bitcoind at http://blockstack@localhost:18332, timeout=60.0
+[2017-02-24 17:33:51,896] [DEBUG] [atlas:3575] (16513.140250743052976) localhost:16264: AtlasZonefileCrawler step
+[2017-02-24 17:33:51,896] [DEBUG] [atlas:2324] (16513.140250743052976) Missing 0 zonefiles
+[2017-02-24 17:33:51,897] [DEBUG] [atlas:3617] (16513.140250743052976) localhost:16264: missing 0 unique zonefiles
+[2017-02-24 17:33:51,897] [DEBUG] [atlas:3719] (16513.140250743052976) localhost:16264: fetched 0 zonefiles
+[2017-02-24 17:33:52,004] [DEBUG] [atlas:3236] (16513.140250826697392) localhost:16264: AtlasPeerCrawler step
+[2017-02-24 17:33:52,005] [DEBUG] [atlas:3172] (16513.140250826697392) Add at most 10 new peers out of 0 options
+[2017-02-24 17:33:52,093] [DEBUG] [blockstack-test-scenario:875] (16513.140250828647240) next block (now at 257)
+[2017-02-24 17:33:52,093] [DEBUG] [session:129] (16513.140250828647240) [16513] Connect to bitcoind at http://blockstack@localhost:18332, timeout=60.0
+[2017-02-24 17:33:52,094] [DEBUG] [namedb:98] (16513.140250828647240) Connect to database '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.db'
+[2017-02-24 17:33:52,135] [DEBUG] [indexer:190] (16513.140250828647240) consensus snapshots at '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.snapshots'
+[2017-02-24 17:33:52,135] [DEBUG] [indexer:225] (16513.140250828647240) lastblock at '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock'
+[2017-02-24 17:33:52,135] [DEBUG] [indexer:228] (16513.140250828647240) Lastblock: 256 (/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock)
+[2017-02-24 17:33:52,136] [DEBUG] [blockstack-test-scenario:413] (16513.140250828647240) sync virtualchain up to 257
+[2017-02-24 17:33:52,136] [DEBUG] [indexer:1127] (16513.140250828647240) Sync virtualchain state from 257 to 258
+[2017-02-24 17:33:52,136] [DEBUG] [spv:744] (16513.140250828647240) Synchronize testnet 257 to 257
+[2017-02-24 17:33:52,136] [DEBUG] [spv:764] (16513.140250828647240) connect to localhost:18444
+[2017-02-24 17:33:52,136] [DEBUG] [spv:368] (16513.140250828647240) handshake (version 60002)
+[2017-02-24 17:33:52,136] [DEBUG] [spv:371] (16513.140250828647240) send Version
+[2017-02-24 17:33:52,137] [DEBUG] [spv:384] (16513.140250828647240) handle version
+[2017-02-24 17:33:52,137] [DEBUG] [spv:386] (16513.140250828647240) send VerAck
+[2017-02-24 17:33:52,137] [DEBUG] [spv:358] (16513.140250828647240) send getheaders
+[2017-02-24 17:33:52,180] [DEBUG] [spv:403] (16513.140250828647240) handle ping
+[2017-02-24 17:33:52,180] [DEBUG] [spv:406] (16513.140250828647240) send pong
+[2017-02-24 17:33:52,683] [DEBUG] [spv:250] (16513.140250828647240) handle headers (1)
+[2017-02-24 17:33:52,683] [DEBUG] [spv:268] (16513.140250828647240) Receive 1 headers (256 to 257)
+[2017-02-24 17:33:52,684] [DEBUG] [spv:782] (16513.140250828647240) synced headers from 256 to 257 in /tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/spv_headers.dat
+[2017-02-24 17:33:52,685] [DEBUG] [blocks:118] (16513.140250828647240) BlockDownloader: fetch blocks 257-257
+[2017-02-24 17:33:52,685] [DEBUG] [blocks:302] (16513.140250828647240) handshake (version 60002)
+[2017-02-24 17:33:52,685] [DEBUG] [blocks:305] (16513.140250828647240) send Version
+[2017-02-24 17:33:52,687] [DEBUG] [blocks:318] (16513.140250828647240) handle version
+[2017-02-24 17:33:52,687] [DEBUG] [blocks:320] (16513.140250828647240) send VerAck
+[2017-02-24 17:33:52,687] [DEBUG] [blocks:336] (16513.140250828647240) send getdata for 257-257 (7e06b228195057e88eeb164c999bb15ed044c90b8599a5a5b0c20f923c3c055e-7e06b228195057e88eeb164c999bb15ed044c90b8599a5a5b0c20f923c3c055e)
+[2017-02-24 17:33:52,730] [DEBUG] [blocks:361] (16513.140250828647240) handle ping
+[2017-02-24 17:33:52,730] [DEBUG] [blocks:364] (16513.140250828647240) send pong
+[2017-02-24 17:33:52,847] [DEBUG] [atlas:3348] (16513.140250826787504) localhost:16264: AtlasHealthChecker step
+[2017-02-24 17:33:52,898] [DEBUG] [atlas:3575] (16513.140250743052976) localhost:16264: AtlasZonefileCrawler step
+[2017-02-24 17:33:52,899] [DEBUG] [atlas:2324] (16513.140250743052976) Missing 0 zonefiles
+[2017-02-24 17:33:52,899] [DEBUG] [atlas:3617] (16513.140250743052976) localhost:16264: missing 0 unique zonefiles
+[2017-02-24 17:33:52,899] [DEBUG] [atlas:3719] (16513.140250743052976) localhost:16264: fetched 0 zonefiles
+[2017-02-24 17:33:53,006] [DEBUG] [atlas:3236] (16513.140250826697392) localhost:16264: AtlasPeerCrawler step
+[2017-02-24 17:33:53,006] [DEBUG] [atlas:3172] (16513.140250826697392) Add at most 10 new peers out of 0 options
+[2017-02-24 17:33:53,132] [DEBUG] [blocks:198] (16513.140250828647240) num blocks received = 0, num requested = 1
+[2017-02-24 17:33:53,132] [DEBUG] [blocks:566] (16513.140250828647240) handle block 257 (7e06b228195057e88eeb164c999bb15ed044c90b8599a5a5b0c20f923c3c055e)
+[2017-02-24 17:33:53,133] [DEBUG] [blocks:654] (16513.140250828647240) Request 1 nulldata sender TXs
+[2017-02-24 17:33:53,134] [DEBUG] [blocks:229] (16513.140250828647240) Fetch 1 TXs via JSON-RPC (0-1 of 1)
+[2017-02-24 17:33:53,138] [DEBUG] [virtualchain_hooks:171] (16513.140250828647240) PARSE NAMESPACE_PREORDER at (257, 1): db207fcd2150f332a53a8ff0be2a12a85445a2a92a9148d8b13939723d2aca16c75c6d68
+[2017-02-24 17:33:53,177] [DEBUG] [indexer:1067] (16513.140250828647240) Process block 257 (1 virtual transactions)
+[2017-02-24 17:33:53,178] [DEBUG] [virtualchain_hooks:290] (16513.140250828647240) CHECK NAMESPACE_PREORDER at (257, 1)
+[2017-02-24 17:33:53,178] [DEBUG] [namedb:390] (16513.140250828647240) ACCEPT NAMESPACE_PREORDER at (257, 1) data: address='mgoZn4k6LuqiTYsVqQz9eu4LgpGVSz6NUC', block_number='257', consensus_hash='2a9148d8b13939723d2aca16c75c6d68', op='*', op_fee='400000000', preorder_hash='db207fcd2150f332a53a8ff0be2a12a85445a2a9', sender='76a9140e1c669e2756a79185299cb25ed043ab145f08f088ac', sender_pubkey='04d6fd1ba0effaf1e8d94ea7b7a3d0ef26fea00a14ce5ffcc1495fe588a2c6d0f35eaa22c01a35bee5817f03d769a3a38a3bb50182c61449ad125555daf26396fb', txid='9965d1d2d9a2f9710c41000b7cddcd0792ed55b5c182d1b565d57efb0fb22ec6', vtxindex='1'
+[2017-02-24 17:33:53,179] [DEBUG] [db:411] (16513.140250828647240) INSERT INTO preorders (address,block_number,consensus_hash,op,op_fee,preorder_hash,sender,sender_pubkey,txid,vtxindex) VALUES ( 'mgoZn4k6LuqiTYsVqQz9eu4LgpGVSz6NUC', 257, '2a9148d8b13939723d2aca16c75c6d68', '*', 400000000, 'db207fcd2150f332a53a8ff0be2a12a85445a2a9', '76a9140e1c669e2756a79185299cb25ed043ab145f08f088ac', '04d6fd1ba0effaf1e8d94ea7b7a3d0ef26fea00a14ce5ffcc1495fe588a2c6d0f35eaa22c01a35bee5817f03d769a3a38a3bb50182c61449ad125555daf26396fb', '9965d1d2d9a2f9710c41000b7cddcd0792ed55b5c182d1b565d57efb0fb22ec6', 1); ''
+[2017-02-24 17:33:53,232] [DEBUG] [namedb:1268] (16513.140250828647240) add all consensus values for NAMESPACE_PREORDER at 257
+[2017-02-24 17:33:53,232] [DEBUG] [__init__:294] (16513.140250828647240) apply SNV QURIKS on UNKNOWN at 257 (created with None)
+[2017-02-24 17:33:53,232] [DEBUG] [namedb:1277] (16513.140250828647240) consensus_extra: {}
+[2017-02-24 17:33:53,232] [DEBUG] [namedb:1286] (16513.140250828647240) overwrites: []
+[2017-02-24 17:33:53,232] [DEBUG] [namedb:405] (16513.140250828647240) COMMIT NAMESPACE_PREORDER (*) at (257, 1) data: address='mgoZn4k6LuqiTYsVqQz9eu4LgpGVSz6NUC', block_number='257', consensus_hash='2a9148d8b13939723d2aca16c75c6d68', op='*', op_fee='400000000', preorder_hash='db207fcd2150f332a53a8ff0be2a12a85445a2a9', sender='76a9140e1c669e2756a79185299cb25ed043ab145f08f088ac', sender_pubkey='04d6fd1ba0effaf1e8d94ea7b7a3d0ef26fea00a14ce5ffcc1495fe588a2c6d0f35eaa22c01a35bee5817f03d769a3a38a3bb50182c61449ad125555daf26396fb', txid='9965d1d2d9a2f9710c41000b7cddcd0792ed55b5c182d1b565d57efb0fb22ec6', vtxindex='1'
+[2017-02-24 17:33:53,233] [DEBUG] [indexer:809] (16513.140250828647240) Snapshotting block 257
+[2017-02-24 17:33:53,233] [DEBUG] [indexer:771] (16513.140250828647240) SERIALIZE: *:preorder_hash=40:db207fcd2150f332a53a8ff0be2a12a85445a2a9,consensus_hash=32:2a9148d8b13939723d2aca16c75c6d68,op=1:*,op_fee=9:400000000,txid=64:9965d1d2d9a2f9710c41000b7cddcd0792ed55b5c182d1b565d57efb0fb22ec6,vtxindex=1:1,block_number=3:257,sender=50:76a9140e1c669e2756a79185299cb25ed043ab145f08f088ac,sender_pubkey=130:04d6fd1ba0effaf1e8d94ea7b7a3d0ef26fea00a14ce5ffcc1495fe588a2c6d0f35eaa22c01a35bee5817f03d769a3a38a3bb50182c61449ad125555daf26396fb,address=34:mgoZn4k6LuqiTYsVqQz9eu4LgpGVSz6NUC
+[2017-02-24 17:33:53,233] [DEBUG] [indexer:822] (16513.140250828647240) Snapshotting block 257: consensus hash of 256 is 2a9148d8b13939723d2aca16c75c6d68
+[2017-02-24 17:33:53,233] [DEBUG] [indexer:730] (16513.140250828647240) Snapshot('f26286465941576293bb52919f609f286d6db3a3a7022d66a866e75ee0be8141', [u'2a9148d8b13939723d2aca16c75c6d68'])
+[2017-02-24 17:33:53,234] [DEBUG] [namedb:753] (16513.140250828647240) Get all ops at 257 in /tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.db
+[2017-02-24 17:33:53,234] [DEBUG] [db:1834] (16513.140250828647240) 0 name-preorder/import states at 257
+[2017-02-24 17:33:53,234] [DEBUG] [db:1889] (16513.140250828647240) 0 name-change states at 257
+[2017-02-24 17:33:53,234] [DEBUG] [db:1935] (16513.140250828647240) 1 preorders created at 257
+[2017-02-24 17:33:53,234] [DEBUG] [db:1979] (16513.140250828647240) 0 namespace-preorder states at 257
+[2017-02-24 17:33:53,235] [DEBUG] [db:2027] (16513.140250828647240) 0 namespace-change states at 257
+[2017-02-24 17:33:53,235] [DEBUG] [namedb:98] (16513.140250828647240) Connect to database '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.db'
+[2017-02-24 17:33:53,235] [DEBUG] [indexer:190] (16513.140250828647240) consensus snapshots at '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.snapshots'
+[2017-02-24 17:33:53,235] [DEBUG] [indexer:225] (16513.140250828647240) lastblock at '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock'
+[2017-02-24 17:33:53,235] [DEBUG] [indexer:228] (16513.140250828647240) Lastblock: 256 (/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock)
+[2017-02-24 17:33:53,236] [DEBUG] [__init__:294] (16513.140250828647240) apply SNV QURIKS on UNKNOWN at 257 (created with None)
+[2017-02-24 17:33:53,236] [DEBUG] [indexer:771] (16513.140250828647240) SERIALIZE: *:preorder_hash=40:db207fcd2150f332a53a8ff0be2a12a85445a2a9,consensus_hash=32:2a9148d8b13939723d2aca16c75c6d68,op=1:*,op_fee=9:400000000,txid=64:9965d1d2d9a2f9710c41000b7cddcd0792ed55b5c182d1b565d57efb0fb22ec6,vtxindex=1:1,block_number=3:257,sender=50:76a9140e1c669e2756a79185299cb25ed043ab145f08f088ac,sender_pubkey=130:04d6fd1ba0effaf1e8d94ea7b7a3d0ef26fea00a14ce5ffcc1495fe588a2c6d0f35eaa22c01a35bee5817f03d769a3a38a3bb50182c61449ad125555daf26396fb,address=34:mgoZn4k6LuqiTYsVqQz9eu4LgpGVSz6NUC
+[2017-02-24 17:33:53,283] [DEBUG] [namedb:1751] (16513.140250828647240) ops hash at 257 is f26286465941576293bb52919f609f286d6db3a3a7022d66a866e75ee0be8141
+[2017-02-24 17:33:53,283] [DEBUG] [virtualchain_hooks:410] (16513.140250828647240) Synchronize Atlas DB for 256
+[2017-02-24 17:33:53,301] [DEBUG] [namedb:753] (16513.140250828647240) Get all ops at 256 in /tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.db
+[2017-02-24 17:33:53,301] [DEBUG] [db:1834] (16513.140250828647240) 0 name-preorder/import states at 256
+[2017-02-24 17:33:53,302] [DEBUG] [db:1889] (16513.140250828647240) 0 name-change states at 256
+[2017-02-24 17:33:53,302] [DEBUG] [db:1935] (16513.140250828647240) 0 preorders created at 256
+[2017-02-24 17:33:53,302] [DEBUG] [db:1979] (16513.140250828647240) 0 namespace-preorder states at 256
+[2017-02-24 17:33:53,302] [DEBUG] [db:2027] (16513.140250828647240) 0 namespace-change states at 256
+[2017-02-24 17:33:53,302] [DEBUG] [atlas:859] (16513.140250828647240) Queued 0 zonefiles from 256-256
+[2017-02-24 17:33:53,338] [DEBUG] [indexer:391] (16513.140250828647240) Rename 'lastblock': /tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock.tmp --> /tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock
+[2017-02-24 17:33:53,388] [DEBUG] [indexer:391] (16513.140250828647240) Rename 'snapshots': /tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.snapshots.tmp --> /tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.snapshots
+[2017-02-24 17:33:53,422] [DEBUG] [indexer:1156] (16513.140250828647240) CONSENSUS(257): d0bdfdc988e6836580012151761a9ec2
+[2017-02-24 17:33:53,422] [DEBUG] [indexer:1170] (16513.140250828647240) Last block is 257
+[2017-02-24 17:33:53,422] [INFO] [virtualchain:80] (16513.140250828647240) 1 seconds
+[2017-02-24 17:33:53,422] [DEBUG] [namedb:98] (16513.140250828647240) Connect to database '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.db'
+[2017-02-24 17:33:53,439] [DEBUG] [indexer:190] (16513.140250828647240) consensus snapshots at '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.snapshots'
+[2017-02-24 17:33:53,439] [DEBUG] [indexer:225] (16513.140250828647240) lastblock at '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock'
+[2017-02-24 17:33:53,439] [DEBUG] [indexer:228] (16513.140250828647240) Lastblock: 257 (/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock)
+[2017-02-24 17:33:53,440] [DEBUG] [blockstack-test-scenario:423] (16513.140250828647240) sync atlas node up to 257
+[2017-02-24 17:33:53,440] [DEBUG] [blockstack-test-scenario:428] (16513.140250828647240) Synchronize Atlas DB from 257 to 258
+[2017-02-24 17:33:53,440] [DEBUG] [namedb:753] (16513.140250828647240) Get all ops at 257 in /tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.db
+[2017-02-24 17:33:53,440] [DEBUG] [db:1834] (16513.140250828647240) 0 name-preorder/import states at 257
+[2017-02-24 17:33:53,440] [DEBUG] [db:1889] (16513.140250828647240) 0 name-change states at 257
+[2017-02-24 17:33:53,441] [DEBUG] [db:1935] (16513.140250828647240) 1 preorders created at 257
+[2017-02-24 17:33:53,441] [DEBUG] [db:1979] (16513.140250828647240) 0 namespace-preorder states at 257
+[2017-02-24 17:33:53,441] [DEBUG] [db:2027] (16513.140250828647240) 0 namespace-change states at 257
+[2017-02-24 17:33:53,441] [DEBUG] [atlas:859] (16513.140250828647240) Queued 0 zonefiles from 257-257
+[2017-02-24 17:33:53,441] [DEBUG] [db:234] (16513.140250828647240) /usr/bin/sqlite3 /tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.db .backup "/tmp/blockstack-test-databases-UTj4MH/blockstack.db.257"
+[2017-02-24 17:33:53,520] [DEBUG] [client:86] (16513.140250828647240) Connect to localhost:16264
+[2017-02-24 17:33:53,520] [DEBUG] [client:120] (16513.140250828647240) Loaded storage driver "disk"
+[2017-02-24 17:33:53,708] [DEBUG] [blockstackd:304] (16513.140250742962864) Inbound RPC begin rpc_get_namespace_blockchain_record(('test',))
+[2017-02-24 17:33:53,709] [DEBUG] [namedb:98] (16513.140250742962864) Connect to database '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.db'
+[2017-02-24 17:33:53,710] [DEBUG] [indexer:190] (16513.140250742962864) consensus snapshots at '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.snapshots'
+[2017-02-24 17:33:53,710] [DEBUG] [indexer:225] (16513.140250742962864) lastblock at '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock'
+[2017-02-24 17:33:53,710] [DEBUG] [indexer:228] (16513.140250742962864) Lastblock: 257 (/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock)
+[2017-02-24 17:33:53,711] [DEBUG] [blockstackd:314] (16513.140250742962864) Inbound RPC end rpc_get_namespace_blockchain_record(('test',))
+127.0.0.1 - - [24/Feb/2017 17:33:53] "POST /RPC2 HTTP/1.0" 200 -
+[2017-02-24 17:33:53,917] [DEBUG] [atlas:3575] (16513.140250743052976) localhost:16264: AtlasZonefileCrawler step
+[2017-02-24 17:33:53,919] [DEBUG] [atlas:3348] (16513.140250826787504) localhost:16264: AtlasHealthChecker step
+[2017-02-24 17:33:54,013] [DEBUG] [atlas:3236] (16513.140250826697392) localhost:16264: AtlasPeerCrawler step
+[2017-02-24 17:33:54,400] [DEBUG] [atlas:2324] (16513.140250743052976) Missing 0 zonefiles
+[2017-02-24 17:33:54,413] [DEBUG] [atlas:3617] (16513.140250743052976) localhost:16264: missing 0 unique zonefiles
+[2017-02-24 17:33:54,490] [DEBUG] [atlas:3719] (16513.140250743052976) localhost:16264: fetched 0 zonefiles
+[2017-02-24 17:33:54,619] [DEBUG] [keys:827] (16513.140250828647240) High-S to low-S
+[2017-02-24 17:33:54,625] [DEBUG] [atlas:3172] (16513.140250826697392) Add at most 10 new peers out of 0 options
+[2017-02-24 17:33:54,626] [DEBUG] [blockchain:57] (16513.140250828647240) Connect to bitcoind at localhost:18332 (/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/client/client.ini)
+[2017-02-24 17:33:54,626] [DEBUG] [session:129] (16513.140250828647240) [16513] Connect to bitcoind at http://blockstack@localhost:18332, timeout=300.0
+[2017-02-24 17:33:54,627] [DEBUG] [nameops:673] (16513.140250828647240) namespace reveal tx 293 bytes, 1574 satoshis txfee
+[2017-02-24 17:33:54,628] [DEBUG] [nameops:1498] (16513.140250828647240) Revealing namespace (test, mgoZn4k6LuqiTYsVqQz9eu4LgpGVSz6NUC, mxHH7Fch85gD2i74yaWQxeqBkwk2NvzdWq), tx_fee = 1574.0
+[2017-02-24 17:33:55,371] [DEBUG] [keys:827] (16513.140250828647240) High-S to low-S
+[2017-02-24 17:33:55,376] [DEBUG] [tx:144] (16513.140250828647240) Send 0100000001c62eb20ffb7ed565b5d182c1b555ed9207cddd7c0b00410c71f9a2d9d2d16599010000008a47304402200610a13f85de676ec118b0bdb033b4a6ce42ecc18e3f1fdedb868b8921f05c3b02207e74c4586473c6d63008aa695c2f0264169c0d0fffc5184befae1e6065cb08ca014104d6fd1ba0effaf1e8d94ea7b7a3d0ef26fea00a14ce5ffcc1495fe588a2c6d0f35eaa22c01a35bee5817f03d769a3a38a3bb50182c61449ad125555daf26396fbffffffff0300000000000000001a6a186964260000cd73fa046543210000000000aa0001746573747c150000000000001976a914b7e40511f53f69045cb14c6c5a714d6a4ffe3a3788acb0732d12010000001976a9140e1c669e2756a79185299cb25ed043ab145f08f088ac00000000
+[2017-02-24 17:33:55,378] [DEBUG] [session:129] (16513.140250828647240) [16513] Connect to bitcoind at http://blockstack@localhost:18332, timeout=60.0
+[2017-02-24 17:33:55,491] [DEBUG] [atlas:3575] (16513.140250743052976) localhost:16264: AtlasZonefileCrawler step
+[2017-02-24 17:33:55,491] [DEBUG] [atlas:3348] (16513.140250826787504) localhost:16264: AtlasHealthChecker step
+[2017-02-24 17:33:55,492] [DEBUG] [atlas:2324] (16513.140250743052976) Missing 0 zonefiles
+[2017-02-24 17:33:55,492] [DEBUG] [atlas:3617] (16513.140250743052976) localhost:16264: missing 0 unique zonefiles
+[2017-02-24 17:33:55,492] [DEBUG] [atlas:3719] (16513.140250743052976) localhost:16264: fetched 0 zonefiles
+[2017-02-24 17:33:55,543] [DEBUG] [blockstack-test-scenario:875] (16513.140250828647240) next block (now at 258)
+[2017-02-24 17:33:55,543] [DEBUG] [session:129] (16513.140250828647240) [16513] Connect to bitcoind at http://blockstack@localhost:18332, timeout=60.0
+[2017-02-24 17:33:55,545] [DEBUG] [namedb:98] (16513.140250828647240) Connect to database '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.db'
+[2017-02-24 17:33:55,565] [DEBUG] [indexer:190] (16513.140250828647240) consensus snapshots at '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.snapshots'
+[2017-02-24 17:33:55,565] [DEBUG] [indexer:225] (16513.140250828647240) lastblock at '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock'
+[2017-02-24 17:33:55,565] [DEBUG] [indexer:228] (16513.140250828647240) Lastblock: 257 (/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock)
+[2017-02-24 17:33:55,567] [DEBUG] [blockstack-test-scenario:413] (16513.140250828647240) sync virtualchain up to 258
+[2017-02-24 17:33:55,567] [DEBUG] [indexer:1127] (16513.140250828647240) Sync virtualchain state from 258 to 259
+[2017-02-24 17:33:55,567] [DEBUG] [spv:744] (16513.140250828647240) Synchronize testnet 258 to 258
+[2017-02-24 17:33:55,567] [DEBUG] [spv:764] (16513.140250828647240) connect to localhost:18444
+[2017-02-24 17:33:55,568] [DEBUG] [spv:368] (16513.140250828647240) handshake (version 60002)
+[2017-02-24 17:33:55,568] [DEBUG] [spv:371] (16513.140250828647240) send Version
+[2017-02-24 17:33:55,568] [DEBUG] [spv:384] (16513.140250828647240) handle version
+[2017-02-24 17:33:55,568] [DEBUG] [spv:386] (16513.140250828647240) send VerAck
+[2017-02-24 17:33:55,569] [DEBUG] [spv:358] (16513.140250828647240) send getheaders
+[2017-02-24 17:33:55,610] [DEBUG] [spv:403] (16513.140250828647240) handle ping
+[2017-02-24 17:33:55,610] [DEBUG] [spv:406] (16513.140250828647240) send pong
+[2017-02-24 17:33:55,626] [DEBUG] [atlas:3236] (16513.140250826697392) localhost:16264: AtlasPeerCrawler step
+[2017-02-24 17:33:55,627] [DEBUG] [atlas:3172] (16513.140250826697392) Add at most 10 new peers out of 0 options
+[2017-02-24 17:33:55,912] [DEBUG] [spv:250] (16513.140250828647240) handle headers (1)
+[2017-02-24 17:33:55,912] [DEBUG] [spv:268] (16513.140250828647240) Receive 1 headers (257 to 258)
+[2017-02-24 17:33:55,912] [DEBUG] [spv:782] (16513.140250828647240) synced headers from 257 to 258 in /tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/spv_headers.dat
+[2017-02-24 17:33:55,913] [DEBUG] [blocks:118] (16513.140250828647240) BlockDownloader: fetch blocks 258-258
+[2017-02-24 17:33:55,913] [DEBUG] [blocks:302] (16513.140250828647240) handshake (version 60002)
+[2017-02-24 17:33:55,913] [DEBUG] [blocks:305] (16513.140250828647240) send Version
+[2017-02-24 17:33:55,914] [DEBUG] [blocks:318] (16513.140250828647240) handle version
+[2017-02-24 17:33:55,914] [DEBUG] [blocks:320] (16513.140250828647240) send VerAck
+[2017-02-24 17:33:55,914] [DEBUG] [blocks:336] (16513.140250828647240) send getdata for 258-258 (4abb61b60d98fc4b2bd7174a6792e0ef264e64507c7613934ced8213347b3334-4abb61b60d98fc4b2bd7174a6792e0ef264e64507c7613934ced8213347b3334)
+[2017-02-24 17:33:55,957] [DEBUG] [blocks:361] (16513.140250828647240) handle ping
+[2017-02-24 17:33:55,957] [DEBUG] [blocks:364] (16513.140250828647240) send pong
+[2017-02-24 17:33:56,459] [DEBUG] [blocks:198] (16513.140250828647240) num blocks received = 0, num requested = 1
+[2017-02-24 17:33:56,459] [DEBUG] [blocks:566] (16513.140250828647240) handle block 258 (4abb61b60d98fc4b2bd7174a6792e0ef264e64507c7613934ced8213347b3334)
+[2017-02-24 17:33:56,460] [DEBUG] [blocks:654] (16513.140250828647240) Request 1 nulldata sender TXs
+[2017-02-24 17:33:56,461] [DEBUG] [blocks:229] (16513.140250828647240) Fetch 1 TXs via JSON-RPC (0-1 of 1)
+[2017-02-24 17:33:56,465] [DEBUG] [virtualchain_hooks:171] (16513.140250828647240) PARSE NAMESPACE_REVEAL at (258, 1): 0000cd73fa046543210000000000aa000174657374
+[2017-02-24 17:33:56,507] [DEBUG] [atlas:3575] (16513.140250743052976) localhost:16264: AtlasZonefileCrawler step
+[2017-02-24 17:33:56,507] [DEBUG] [indexer:1067] (16513.140250828647240) Process block 258 (1 virtual transactions)
+[2017-02-24 17:33:56,507] [DEBUG] [atlas:3348] (16513.140250826787504) localhost:16264: AtlasHealthChecker step
+[2017-02-24 17:33:56,509] [DEBUG] [atlas:2324] (16513.140250743052976) Missing 0 zonefiles
+[2017-02-24 17:33:56,509] [DEBUG] [atlas:3617] (16513.140250743052976) localhost:16264: missing 0 unique zonefiles
+[2017-02-24 17:33:56,509] [DEBUG] [atlas:3719] (16513.140250743052976) localhost:16264: fetched 0 zonefiles
+[2017-02-24 17:33:56,509] [DEBUG] [db:1512] (16513.140250828647240) SELECT * FROM namespaces WHERE namespace_id =  'test' AND ((op =  '!') OR (op =  '&'  AND namespaces.reveal_block <=  258 )) ''
+[2017-02-24 17:33:56,509] [DEBUG] [namespacereveal:195] (16513.140250828647240) Revealing for the first time: 'test'
+[2017-02-24 17:33:56,510] [DEBUG] [virtualchain_hooks:290] (16513.140250828647240) CHECK NAMESPACE_REVEAL at (258, 1)
+[2017-02-24 17:33:56,510] [DEBUG] [db:1512] (16513.140250828647240) SELECT * FROM namespaces WHERE namespace_id =  'test' AND ((op =  '!') OR (op =  '&'  AND namespaces.reveal_block <=  258 )) ''
+[2017-02-24 17:33:56,510] [DEBUG] [namespacereveal:195] (16513.140250828647240) Revealing for the first time: 'test'
+[2017-02-24 17:33:56,510] [DEBUG] [namedb:390] (16513.140250828647240) ACCEPT NAMESPACE_REVEAL at (258, 1) data: address='mgoZn4k6LuqiTYsVqQz9eu4LgpGVSz6NUC', base='4', block_number='257', buckets='[6, 5, 4, 3, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]', coeff='250', lifetime='52595', namespace_id='test', no_vowel_discount='10', nonalpha_discount='10', op='&', op_fee='400000000', preorder_hash='db207fcd2150f332a53a8ff0be2a12a85445a2a9', ready_block='0', recipient='76a914b7e40511f53f69045cb14c6c5a714d6a4ffe3a3788ac', recipient_address='mxHH7Fch85gD2i74yaWQxeqBkwk2NvzdWq', reveal_block='258', sender='76a9140e1c669e2756a79185299cb25ed043ab145f08f088ac', sender_pubkey='04d6fd1ba0effaf1e8d94ea7b7a3d0ef26fea00a14ce5ffcc1495fe588a2c6d0f35eaa22c01a35bee5817f03d769a3a38a3bb50182c61449ad125555daf26396fb', txid='a5b6013e3abc1f620c7605785d2dcf0af5b0459e6613bfeab2b0ada181a7be19', version='1', vtxindex='1'
+[2017-02-24 17:33:56,510] [DEBUG] [db:1276] (16513.140250828647240) SAVE HISTORY test AT (258, 1)
+[2017-02-24 17:33:56,511] [DEBUG] [db:411] (16513.140250828647240) INSERT INTO history (block_id,history_data,history_id,op,txid,vtxindex) VALUES ( 258, '{"block_number": 257, "sender": "76a9140e1c669e2756a79185299cb25ed043ab145f08f088ac", "sender_pubkey": "04d6fd1ba0effaf1e8d94ea7b7a3d0ef26fea00a14ce5ffcc1495fe588a2c6d0f35eaa22c01a35bee5817f03d769a3a38a3bb50182c61449ad125555daf26396fb", "consensus_hash": "2a9148d8b13939723d2aca16c75c6d68", "txid": "9965d1d2d9a2f9710c41000b7cddcd0792ed55b5c182d1b565d57efb0fb22ec6", "op_fee": 400000000, "address": "mgoZn4k6LuqiTYsVqQz9eu4LgpGVSz6NUC", "preorder_hash": "db207fcd2150f332a53a8ff0be2a12a85445a2a9", "history_snapshot": true, "vtxindex": 1, "op": "*"}', 'test', '*', 'a5b6013e3abc1f620c7605785d2dcf0af5b0459e6613bfeab2b0ada181a7be19', 1); ''
+[2017-02-24 17:33:56,591] [DEBUG] [db:411] (16513.140250828647240) INSERT INTO namespaces (address,base,block_number,buckets,coeff,lifetime,namespace_id,no_vowel_discount,nonalpha_discount,op,op_fee,preorder_hash,ready_block,recipient,recipient_address,reveal_block,sender,sender_pubkey,txid,version,vtxindex) VALUES ( 'mgoZn4k6LuqiTYsVqQz9eu4LgpGVSz6NUC', 4, 257, '[6, 5, 4, 3, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]', 250, 52595, 'test', 10, 10, '&', 400000000, 'db207fcd2150f332a53a8ff0be2a12a85445a2a9', 0, '76a914b7e40511f53f69045cb14c6c5a714d6a4ffe3a3788ac', 'mxHH7Fch85gD2i74yaWQxeqBkwk2NvzdWq', 258, '76a9140e1c669e2756a79185299cb25ed043ab145f08f088ac', '04d6fd1ba0effaf1e8d94ea7b7a3d0ef26fea00a14ce5ffcc1495fe588a2c6d0f35eaa22c01a35bee5817f03d769a3a38a3bb50182c61449ad125555daf26396fb', 'a5b6013e3abc1f620c7605785d2dcf0af5b0459e6613bfeab2b0ada181a7be19', 1, 1); ''
+[2017-02-24 17:33:56,628] [DEBUG] [atlas:3236] (16513.140250826697392) localhost:16264: AtlasPeerCrawler step
+[2017-02-24 17:33:56,628] [DEBUG] [atlas:3172] (16513.140250826697392) Add at most 10 new peers out of 0 options
+[2017-02-24 17:33:56,691] [DEBUG] [namedb:1268] (16513.140250828647240) add all consensus values for NAMESPACE_REVEAL at 258
+[2017-02-24 17:33:56,691] [DEBUG] [__init__:294] (16513.140250828647240) apply SNV QURIKS on UNKNOWN at 258 (created with None)
+[2017-02-24 17:33:56,691] [DEBUG] [namedb:1277] (16513.140250828647240) consensus_extra: {}
+[2017-02-24 17:33:56,691] [DEBUG] [namedb:1286] (16513.140250828647240) overwrites: []
+[2017-02-24 17:33:56,691] [DEBUG] [namedb:405] (16513.140250828647240) COMMIT NAMESPACE_REVEAL (&) at (258, 1) data: address='mgoZn4k6LuqiTYsVqQz9eu4LgpGVSz6NUC', base='4', block_number='257', buckets='[6, 5, 4, 3, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]', coeff='250', lifetime='52595', namespace_id='test', no_vowel_discount='10', nonalpha_discount='10', op='&', op_fee='400000000', preorder_hash='db207fcd2150f332a53a8ff0be2a12a85445a2a9', ready_block='0', recipient='76a914b7e40511f53f69045cb14c6c5a714d6a4ffe3a3788ac', recipient_address='mxHH7Fch85gD2i74yaWQxeqBkwk2NvzdWq', reveal_block='258', sender='76a9140e1c669e2756a79185299cb25ed043ab145f08f088ac', sender_pubkey='04d6fd1ba0effaf1e8d94ea7b7a3d0ef26fea00a14ce5ffcc1495fe588a2c6d0f35eaa22c01a35bee5817f03d769a3a38a3bb50182c61449ad125555daf26396fb', txid='a5b6013e3abc1f620c7605785d2dcf0af5b0459e6613bfeab2b0ada181a7be19', version='1', vtxindex='1'
+[2017-02-24 17:33:56,691] [DEBUG] [indexer:809] (16513.140250828647240) Snapshotting block 258
+[2017-02-24 17:33:56,692] [DEBUG] [indexer:771] (16513.140250828647240) SERIALIZE: &:namespace_id=4:test,preorder_hash=40:db207fcd2150f332a53a8ff0be2a12a85445a2a9,version=1:1,sender=50:76a9140e1c669e2756a79185299cb25ed043ab145f08f088ac,sender_pubkey=130:04d6fd1ba0effaf1e8d94ea7b7a3d0ef26fea00a14ce5ffcc1495fe588a2c6d0f35eaa22c01a35bee5817f03d769a3a38a3bb50182c61449ad125555daf26396fb,address=34:mgoZn4k6LuqiTYsVqQz9eu4LgpGVSz6NUC,recipient=50:76a914b7e40511f53f69045cb14c6c5a714d6a4ffe3a3788ac,recipient_address=34:mxHH7Fch85gD2i74yaWQxeqBkwk2NvzdWq,block_number=3:257,reveal_block=3:258,op=1:&,txid=64:a5b6013e3abc1f620c7605785d2dcf0af5b0459e6613bfeab2b0ada181a7be19,vtxindex=1:1,lifetime=5:52595,coeff=3:250,base=1:4,buckets=48:[6, 5, 4, 3, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],nonalpha_discount=2:10,no_vowel_discount=2:10
+[2017-02-24 17:33:56,692] [DEBUG] [indexer:822] (16513.140250828647240) Snapshotting block 258: consensus hash of 257 is d0bdfdc988e6836580012151761a9ec2
+[2017-02-24 17:33:56,692] [DEBUG] [indexer:730] (16513.140250828647240) Snapshot('904721aa104dd500b7acdcbe912d097cfd441f89dd1cac991d80a4ec9662f80d', [u'd0bdfdc988e6836580012151761a9ec2'])
+[2017-02-24 17:33:56,693] [DEBUG] [namedb:753] (16513.140250828647240) Get all ops at 258 in /tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.db
+[2017-02-24 17:33:56,693] [DEBUG] [db:1834] (16513.140250828647240) 0 name-preorder/import states at 258
+[2017-02-24 17:33:56,693] [DEBUG] [db:1889] (16513.140250828647240) 0 name-change states at 258
+[2017-02-24 17:33:56,693] [DEBUG] [db:1935] (16513.140250828647240) 0 preorders created at 258
+[2017-02-24 17:33:56,693] [DEBUG] [db:1979] (16513.140250828647240) 0 namespace-preorder states at 258
+[2017-02-24 17:33:56,694] [DEBUG] [db:2027] (16513.140250828647240) 1 namespace-change states at 258
+[2017-02-24 17:33:56,694] [DEBUG] [namedb:98] (16513.140250828647240) Connect to database '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.db'
+[2017-02-24 17:33:56,694] [DEBUG] [indexer:190] (16513.140250828647240) consensus snapshots at '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.snapshots'
+[2017-02-24 17:33:56,694] [DEBUG] [indexer:225] (16513.140250828647240) lastblock at '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock'
+[2017-02-24 17:33:56,694] [DEBUG] [indexer:228] (16513.140250828647240) Lastblock: 257 (/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock)
+[2017-02-24 17:33:56,695] [DEBUG] [__init__:294] (16513.140250828647240) apply SNV QURIKS on UNKNOWN at 258 (created with None)
+[2017-02-24 17:33:56,695] [DEBUG] [indexer:771] (16513.140250828647240) SERIALIZE: &:namespace_id=4:test,preorder_hash=40:db207fcd2150f332a53a8ff0be2a12a85445a2a9,version=1:1,sender=50:76a9140e1c669e2756a79185299cb25ed043ab145f08f088ac,sender_pubkey=130:04d6fd1ba0effaf1e8d94ea7b7a3d0ef26fea00a14ce5ffcc1495fe588a2c6d0f35eaa22c01a35bee5817f03d769a3a38a3bb50182c61449ad125555daf26396fb,address=34:mgoZn4k6LuqiTYsVqQz9eu4LgpGVSz6NUC,recipient=50:76a914b7e40511f53f69045cb14c6c5a714d6a4ffe3a3788ac,recipient_address=34:mxHH7Fch85gD2i74yaWQxeqBkwk2NvzdWq,block_number=3:257,reveal_block=3:258,op=1:&,txid=64:a5b6013e3abc1f620c7605785d2dcf0af5b0459e6613bfeab2b0ada181a7be19,vtxindex=1:1,lifetime=5:52595,coeff=3:250,base=1:4,buckets=48:[6, 5, 4, 3, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],nonalpha_discount=2:10,no_vowel_discount=2:10
+[2017-02-24 17:33:56,741] [DEBUG] [namedb:1751] (16513.140250828647240) ops hash at 258 is 904721aa104dd500b7acdcbe912d097cfd441f89dd1cac991d80a4ec9662f80d
+[2017-02-24 17:33:56,741] [DEBUG] [virtualchain_hooks:410] (16513.140250828647240) Synchronize Atlas DB for 257
+[2017-02-24 17:33:56,760] [DEBUG] [namedb:753] (16513.140250828647240) Get all ops at 257 in /tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.db
+[2017-02-24 17:33:56,761] [DEBUG] [db:1834] (16513.140250828647240) 0 name-preorder/import states at 257
+[2017-02-24 17:33:56,761] [DEBUG] [db:1889] (16513.140250828647240) 0 name-change states at 257
+[2017-02-24 17:33:56,761] [DEBUG] [db:1935] (16513.140250828647240) 0 preorders created at 257
+[2017-02-24 17:33:56,761] [DEBUG] [db:1979] (16513.140250828647240) 1 namespace-preorder states at 257
+[2017-02-24 17:33:56,761] [DEBUG] [db:2027] (16513.140250828647240) 0 namespace-change states at 257
+[2017-02-24 17:33:56,761] [DEBUG] [atlas:859] (16513.140250828647240) Queued 0 zonefiles from 257-257
+[2017-02-24 17:33:56,800] [DEBUG] [indexer:391] (16513.140250828647240) Rename 'lastblock': /tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock.tmp --> /tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock
+[2017-02-24 17:33:56,825] [DEBUG] [indexer:391] (16513.140250828647240) Rename 'snapshots': /tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.snapshots.tmp --> /tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.snapshots
+[2017-02-24 17:33:56,851] [DEBUG] [indexer:1156] (16513.140250828647240) CONSENSUS(258): 5a108350af6c8f86511194aaf28c6fa6
+[2017-02-24 17:33:56,851] [DEBUG] [indexer:1170] (16513.140250828647240) Last block is 258
+[2017-02-24 17:33:56,851] [INFO] [virtualchain:80] (16513.140250828647240) 1 seconds
+[2017-02-24 17:33:56,851] [DEBUG] [namedb:98] (16513.140250828647240) Connect to database '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.db'
+[2017-02-24 17:33:56,868] [DEBUG] [indexer:190] (16513.140250828647240) consensus snapshots at '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.snapshots'
+[2017-02-24 17:33:56,868] [DEBUG] [indexer:225] (16513.140250828647240) lastblock at '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock'
+[2017-02-24 17:33:56,868] [DEBUG] [indexer:228] (16513.140250828647240) Lastblock: 258 (/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock)
+[2017-02-24 17:33:56,869] [DEBUG] [blockstack-test-scenario:423] (16513.140250828647240) sync atlas node up to 258
+[2017-02-24 17:33:56,869] [DEBUG] [blockstack-test-scenario:428] (16513.140250828647240) Synchronize Atlas DB from 258 to 259
+[2017-02-24 17:33:56,869] [DEBUG] [namedb:753] (16513.140250828647240) Get all ops at 258 in /tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.db
+[2017-02-24 17:33:56,869] [DEBUG] [db:1834] (16513.140250828647240) 0 name-preorder/import states at 258
+[2017-02-24 17:33:56,870] [DEBUG] [db:1889] (16513.140250828647240) 0 name-change states at 258
+[2017-02-24 17:33:56,870] [DEBUG] [db:1935] (16513.140250828647240) 0 preorders created at 258
+[2017-02-24 17:33:56,870] [DEBUG] [db:1979] (16513.140250828647240) 0 namespace-preorder states at 258
+[2017-02-24 17:33:56,870] [DEBUG] [db:2027] (16513.140250828647240) 1 namespace-change states at 258
+[2017-02-24 17:33:56,870] [DEBUG] [atlas:859] (16513.140250828647240) Queued 0 zonefiles from 258-258
+[2017-02-24 17:33:56,871] [DEBUG] [db:234] (16513.140250828647240) /usr/bin/sqlite3 /tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.db .backup "/tmp/blockstack-test-databases-UTj4MH/blockstack.db.258"
+[2017-02-24 17:33:56,969] [DEBUG] [namedb:98] (16513.140250828647240) Connect to database '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.db'
+[2017-02-24 17:33:56,985] [DEBUG] [indexer:190] (16513.140250828647240) consensus snapshots at '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.snapshots'
+[2017-02-24 17:33:56,985] [DEBUG] [indexer:225] (16513.140250828647240) lastblock at '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock'
+[2017-02-24 17:33:56,985] [DEBUG] [indexer:228] (16513.140250828647240) Lastblock: 258 (/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock)
+[2017-02-24 17:33:56,986] [INFO] [blockstack-test-scenario:585] (16513.140250828647240) 
+
+Test finished; doing checks
+
+
+[2017-02-24 17:33:57,139] [DEBUG] [atlas:3877] (16513.140250828647240) Stopping Atlas component 'health_checker'
+[2017-02-24 17:33:57,510] [DEBUG] [atlas:3575] (16513.140250743052976) localhost:16264: AtlasZonefileCrawler step
+[2017-02-24 17:33:57,510] [DEBUG] [atlas:3877] (16513.140250828647240) Stopping Atlas component 'peer_crawler'
+[2017-02-24 17:33:57,512] [DEBUG] [atlas:2324] (16513.140250743052976) Missing 0 zonefiles
+[2017-02-24 17:33:57,512] [DEBUG] [atlas:3617] (16513.140250743052976) localhost:16264: missing 0 unique zonefiles
+[2017-02-24 17:33:57,512] [DEBUG] [atlas:3719] (16513.140250743052976) localhost:16264: fetched 0 zonefiles
+[2017-02-24 17:33:57,630] [DEBUG] [atlas:3877] (16513.140250828647240) Stopping Atlas component 'zonefile_crawler'
+[2017-02-24 17:33:58,513] [INFO] [blockstack-test-scenario:627] (16513.140250828647240) 
+
+Scenario checks passed; verifying history
+
+
+[2017-02-24 17:33:58,514] [DEBUG] [namedb:98] (16513.140250828647240) Connect to database '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.db'
+[2017-02-24 17:33:58,514] [DEBUG] [indexer:190] (16513.140250828647240) consensus snapshots at '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.snapshots'
+[2017-02-24 17:33:58,514] [DEBUG] [indexer:225] (16513.140250828647240) lastblock at '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock'
+[2017-02-24 17:33:58,514] [DEBUG] [indexer:228] (16513.140250828647240) Lastblock: 258 (/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock)
+[2017-02-24 17:33:58,515] [DEBUG] [consensus:253] (16513.140250828647240) Rebuilding database from 256 to 256
+[2017-02-24 17:33:58,515] [DEBUG] [namedb:98] (16513.140250828647240) Connect to database '/tmp/blockstack-test-databases-UTj4MH/blockstack.db.256'
+[2017-02-24 17:33:58,516] [DEBUG] [indexer:206] (16513.140250828647240) consensus snapshots at '/tmp/blockstack-test-databases-UTj4MH/work.256/blockstack-server.snapshots'
+[2017-02-24 17:33:58,516] [DEBUG] [indexer:236] (16513.140250828647240) lastblock at '/tmp/blockstack-test-databases-UTj4MH/work.256/blockstack-server.lastblock'
+[2017-02-24 17:33:58,516] [DEBUG] [indexer:238] (16513.140250828647240) Store lastblock 255 to /tmp/blockstack-test-databases-UTj4MH/work.256/blockstack-server.lastblock
+[2017-02-24 17:33:58,516] [DEBUG] [namedb:96] (16513.140250828647240) Initialize database from '/tmp/blockstack-test-databases-UTj4MH/work.256/blockstack.db.256'
+[2017-02-24 17:33:59,276] [DEBUG] [indexer:190] (16513.140250828647240) consensus snapshots at '/tmp/blockstack-test-databases-UTj4MH/work.256/blockstack-server.snapshots'
+[2017-02-24 17:33:59,276] [DEBUG] [indexer:225] (16513.140250828647240) lastblock at '/tmp/blockstack-test-databases-UTj4MH/work.256/blockstack-server.lastblock'
+[2017-02-24 17:33:59,276] [DEBUG] [indexer:228] (16513.140250828647240) Lastblock: 255 (/tmp/blockstack-test-databases-UTj4MH/work.256/blockstack-server.lastblock)
+[2017-02-24 17:33:59,276] [DEBUG] [namedb:753] (16513.140250828647240) Get all ops at 256 in /tmp/blockstack-test-databases-UTj4MH/blockstack.db.256
+[2017-02-24 17:33:59,277] [DEBUG] [db:1834] (16513.140250828647240) 0 name-preorder/import states at 256
+[2017-02-24 17:33:59,277] [DEBUG] [db:1889] (16513.140250828647240) 0 name-change states at 256
+[2017-02-24 17:33:59,277] [DEBUG] [db:1935] (16513.140250828647240) 0 preorders created at 256
+[2017-02-24 17:33:59,277] [DEBUG] [db:1979] (16513.140250828647240) 0 namespace-preorder states at 256
+[2017-02-24 17:33:59,277] [DEBUG] [db:2027] (16513.140250828647240) 0 namespace-change states at 256
+[2017-02-24 17:33:59,277] [DEBUG] [consensus:146] (16513.140250828647240) Records at 256: 0
+[2017-02-24 17:33:59,278] [DEBUG] [indexer:1067] (16513.140250828647240) Process block 256 (0 virtual transactions)
+[2017-02-24 17:33:59,278] [DEBUG] [indexer:809] (16513.140250828647240) Snapshotting block 256
+[2017-02-24 17:33:59,278] [DEBUG] [indexer:730] (16513.140250828647240) Snapshot('5df6e0e2761359d30a8275058e299fcc0381534545f55cf43e41983f5d4c9456', [])
+[2017-02-24 17:33:59,278] [DEBUG] [namedb:753] (16513.140250828647240) Get all ops at 256 in /tmp/blockstack-test-databases-UTj4MH/work.256/blockstack.db.256
+[2017-02-24 17:33:59,278] [DEBUG] [db:1834] (16513.140250828647240) 0 name-preorder/import states at 256
+[2017-02-24 17:33:59,278] [DEBUG] [db:1889] (16513.140250828647240) 0 name-change states at 256
+[2017-02-24 17:33:59,278] [DEBUG] [db:1935] (16513.140250828647240) 0 preorders created at 256
+[2017-02-24 17:33:59,278] [DEBUG] [db:1979] (16513.140250828647240) 0 namespace-preorder states at 256
+[2017-02-24 17:33:59,279] [DEBUG] [db:2027] (16513.140250828647240) 0 namespace-change states at 256
+[2017-02-24 17:33:59,332] [DEBUG] [namedb:1751] (16513.140250828647240) ops hash at 256 is 5df6e0e2761359d30a8275058e299fcc0381534545f55cf43e41983f5d4c9456
+[2017-02-24 17:33:59,332] [DEBUG] [virtualchain_hooks:410] (16513.140250828647240) Synchronize Atlas DB for 255
+[2017-02-24 17:33:59,356] [DEBUG] [namedb:753] (16513.140250828647240) Get all ops at 255 in /tmp/blockstack-test-databases-UTj4MH/work.256/blockstack.db.256
+[2017-02-24 17:33:59,356] [DEBUG] [db:1834] (16513.140250828647240) 0 name-preorder/import states at 255
+[2017-02-24 17:33:59,356] [DEBUG] [db:1889] (16513.140250828647240) 0 name-change states at 255
+[2017-02-24 17:33:59,357] [DEBUG] [db:1935] (16513.140250828647240) 0 preorders created at 255
+[2017-02-24 17:33:59,357] [DEBUG] [db:1979] (16513.140250828647240) 0 namespace-preorder states at 255
+[2017-02-24 17:33:59,357] [DEBUG] [db:2027] (16513.140250828647240) 0 namespace-change states at 255
+[2017-02-24 17:33:59,357] [DEBUG] [atlas:859] (16513.140250828647240) Queued 0 zonefiles from 255-255
+[2017-02-24 17:33:59,401] [DEBUG] [indexer:391] (16513.140250828647240) Rename 'lastblock': /tmp/blockstack-test-databases-UTj4MH/work.256/blockstack-server.lastblock.tmp --> /tmp/blockstack-test-databases-UTj4MH/work.256/blockstack-server.lastblock
+[2017-02-24 17:33:59,435] [DEBUG] [indexer:391] (16513.140250828647240) Rename 'snapshots': /tmp/blockstack-test-databases-UTj4MH/work.256/blockstack-server.snapshots.tmp --> /tmp/blockstack-test-databases-UTj4MH/work.256/blockstack-server.snapshots
+[2017-02-24 17:33:59,469] [DEBUG] [consensus:275] (16513.140250828647240) VERIFY CONSENSUS(256): 2a9148d8b13939723d2aca16c75c6d68
+[2017-02-24 17:33:59,469] [DEBUG] [consensus:253] (16513.140250828647240) Rebuilding database from 256 to 257
+[2017-02-24 17:33:59,469] [DEBUG] [namedb:98] (16513.140250828647240) Connect to database '/tmp/blockstack-test-databases-UTj4MH/blockstack.db.257'
+[2017-02-24 17:33:59,470] [DEBUG] [indexer:206] (16513.140250828647240) consensus snapshots at '/tmp/blockstack-test-databases-UTj4MH/work.257/blockstack-server.snapshots'
+[2017-02-24 17:33:59,470] [DEBUG] [indexer:236] (16513.140250828647240) lastblock at '/tmp/blockstack-test-databases-UTj4MH/work.257/blockstack-server.lastblock'
+[2017-02-24 17:33:59,470] [DEBUG] [indexer:238] (16513.140250828647240) Store lastblock 255 to /tmp/blockstack-test-databases-UTj4MH/work.257/blockstack-server.lastblock
+[2017-02-24 17:33:59,470] [DEBUG] [namedb:96] (16513.140250828647240) Initialize database from '/tmp/blockstack-test-databases-UTj4MH/work.257/blockstack.db.257'
+[2017-02-24 17:34:00,192] [DEBUG] [indexer:190] (16513.140250828647240) consensus snapshots at '/tmp/blockstack-test-databases-UTj4MH/work.257/blockstack-server.snapshots'
+[2017-02-24 17:34:00,193] [DEBUG] [indexer:225] (16513.140250828647240) lastblock at '/tmp/blockstack-test-databases-UTj4MH/work.257/blockstack-server.lastblock'
+[2017-02-24 17:34:00,193] [DEBUG] [indexer:228] (16513.140250828647240) Lastblock: 255 (/tmp/blockstack-test-databases-UTj4MH/work.257/blockstack-server.lastblock)
+[2017-02-24 17:34:00,193] [DEBUG] [namedb:753] (16513.140250828647240) Get all ops at 256 in /tmp/blockstack-test-databases-UTj4MH/blockstack.db.257
+[2017-02-24 17:34:00,194] [DEBUG] [db:1834] (16513.140250828647240) 0 name-preorder/import states at 256
+[2017-02-24 17:34:00,194] [DEBUG] [db:1889] (16513.140250828647240) 0 name-change states at 256
+[2017-02-24 17:34:00,194] [DEBUG] [db:1935] (16513.140250828647240) 0 preorders created at 256
+[2017-02-24 17:34:00,194] [DEBUG] [db:1979] (16513.140250828647240) 0 namespace-preorder states at 256
+[2017-02-24 17:34:00,194] [DEBUG] [db:2027] (16513.140250828647240) 0 namespace-change states at 256
+[2017-02-24 17:34:00,194] [DEBUG] [consensus:146] (16513.140250828647240) Records at 256: 0
+[2017-02-24 17:34:00,194] [DEBUG] [indexer:1067] (16513.140250828647240) Process block 256 (0 virtual transactions)
+[2017-02-24 17:34:00,194] [DEBUG] [indexer:809] (16513.140250828647240) Snapshotting block 256
+[2017-02-24 17:34:00,194] [DEBUG] [indexer:730] (16513.140250828647240) Snapshot('5df6e0e2761359d30a8275058e299fcc0381534545f55cf43e41983f5d4c9456', [])
+[2017-02-24 17:34:00,195] [DEBUG] [namedb:753] (16513.140250828647240) Get all ops at 256 in /tmp/blockstack-test-databases-UTj4MH/work.257/blockstack.db.257
+[2017-02-24 17:34:00,195] [DEBUG] [db:1834] (16513.140250828647240) 0 name-preorder/import states at 256
+[2017-02-24 17:34:00,195] [DEBUG] [db:1889] (16513.140250828647240) 0 name-change states at 256
+[2017-02-24 17:34:00,195] [DEBUG] [db:1935] (16513.140250828647240) 0 preorders created at 256
+[2017-02-24 17:34:00,195] [DEBUG] [db:1979] (16513.140250828647240) 0 namespace-preorder states at 256
+[2017-02-24 17:34:00,195] [DEBUG] [db:2027] (16513.140250828647240) 0 namespace-change states at 256
+[2017-02-24 17:34:00,243] [DEBUG] [namedb:1751] (16513.140250828647240) ops hash at 256 is 5df6e0e2761359d30a8275058e299fcc0381534545f55cf43e41983f5d4c9456
+[2017-02-24 17:34:00,243] [DEBUG] [virtualchain_hooks:410] (16513.140250828647240) Synchronize Atlas DB for 255
+[2017-02-24 17:34:00,261] [DEBUG] [namedb:753] (16513.140250828647240) Get all ops at 255 in /tmp/blockstack-test-databases-UTj4MH/work.257/blockstack.db.257
+[2017-02-24 17:34:00,261] [DEBUG] [db:1834] (16513.140250828647240) 0 name-preorder/import states at 255
+[2017-02-24 17:34:00,261] [DEBUG] [db:1889] (16513.140250828647240) 0 name-change states at 255
+[2017-02-24 17:34:00,261] [DEBUG] [db:1935] (16513.140250828647240) 0 preorders created at 255
+[2017-02-24 17:34:00,261] [DEBUG] [db:1979] (16513.140250828647240) 0 namespace-preorder states at 255
+[2017-02-24 17:34:00,261] [DEBUG] [db:2027] (16513.140250828647240) 0 namespace-change states at 255
+[2017-02-24 17:34:00,261] [DEBUG] [atlas:859] (16513.140250828647240) Queued 0 zonefiles from 255-255
+[2017-02-24 17:34:00,301] [DEBUG] [indexer:391] (16513.140250828647240) Rename 'lastblock': /tmp/blockstack-test-databases-UTj4MH/work.257/blockstack-server.lastblock.tmp --> /tmp/blockstack-test-databases-UTj4MH/work.257/blockstack-server.lastblock
+[2017-02-24 17:34:00,335] [DEBUG] [indexer:391] (16513.140250828647240) Rename 'snapshots': /tmp/blockstack-test-databases-UTj4MH/work.257/blockstack-server.snapshots.tmp --> /tmp/blockstack-test-databases-UTj4MH/work.257/blockstack-server.snapshots
+[2017-02-24 17:34:00,369] [DEBUG] [consensus:275] (16513.140250828647240) VERIFY CONSENSUS(256): 2a9148d8b13939723d2aca16c75c6d68
+[2017-02-24 17:34:00,369] [DEBUG] [namedb:753] (16513.140250828647240) Get all ops at 257 in /tmp/blockstack-test-databases-UTj4MH/blockstack.db.257
+[2017-02-24 17:34:00,369] [DEBUG] [db:1834] (16513.140250828647240) 0 name-preorder/import states at 257
+[2017-02-24 17:34:00,369] [DEBUG] [db:1889] (16513.140250828647240) 0 name-change states at 257
+[2017-02-24 17:34:00,369] [DEBUG] [db:1935] (16513.140250828647240) 1 preorders created at 257
+[2017-02-24 17:34:00,369] [DEBUG] [db:1979] (16513.140250828647240) 0 namespace-preorder states at 257
+[2017-02-24 17:34:00,370] [DEBUG] [db:2027] (16513.140250828647240) 0 namespace-change states at 257
+[2017-02-24 17:34:00,370] [DEBUG] [consensus:146] (16513.140250828647240) Records at 257: 1
+[2017-02-24 17:34:00,370] [DEBUG] [consensus:207] (16513.140250828647240) Recover NAMESPACE_PREORDER
+[2017-02-24 17:34:00,370] [DEBUG] [__init__:293] (16513.140250828647240) apply RESTORE DIFF QUIRKS on UNKNOWN at 257[0] (created with None)
+[2017-02-24 17:34:00,370] [DEBUG] [indexer:1067] (16513.140250828647240) Process block 257 (1 virtual transactions)
+[2017-02-24 17:34:00,370] [DEBUG] [virtualchain_hooks:290] (16513.140250828647240) CHECK NAMESPACE_PREORDER at (257, 1)
+[2017-02-24 17:34:00,370] [DEBUG] [namedb:390] (16513.140250828647240) ACCEPT NAMESPACE_PREORDER at (257, 1) data: address='mgoZn4k6LuqiTYsVqQz9eu4LgpGVSz6NUC', block_number='257', consensus_hash='2a9148d8b13939723d2aca16c75c6d68', op='*', op_fee='400000000', preorder_hash='db207fcd2150f332a53a8ff0be2a12a85445a2a9', sender='76a9140e1c669e2756a79185299cb25ed043ab145f08f088ac', sender_pubkey='04d6fd1ba0effaf1e8d94ea7b7a3d0ef26fea00a14ce5ffcc1495fe588a2c6d0f35eaa22c01a35bee5817f03d769a3a38a3bb50182c61449ad125555daf26396fb', txid='9965d1d2d9a2f9710c41000b7cddcd0792ed55b5c182d1b565d57efb0fb22ec6', vtxindex='1'
+[2017-02-24 17:34:00,371] [DEBUG] [db:411] (16513.140250828647240) INSERT INTO preorders (address,block_number,consensus_hash,op,op_fee,preorder_hash,sender,sender_pubkey,txid,vtxindex) VALUES ( 'mgoZn4k6LuqiTYsVqQz9eu4LgpGVSz6NUC', 257, '2a9148d8b13939723d2aca16c75c6d68', '*', 400000000, 'db207fcd2150f332a53a8ff0be2a12a85445a2a9', '76a9140e1c669e2756a79185299cb25ed043ab145f08f088ac', '04d6fd1ba0effaf1e8d94ea7b7a3d0ef26fea00a14ce5ffcc1495fe588a2c6d0f35eaa22c01a35bee5817f03d769a3a38a3bb50182c61449ad125555daf26396fb', '9965d1d2d9a2f9710c41000b7cddcd0792ed55b5c182d1b565d57efb0fb22ec6', 1); ''
+[2017-02-24 17:34:00,426] [DEBUG] [namedb:1268] (16513.140250828647240) add all consensus values for NAMESPACE_PREORDER at 257
+[2017-02-24 17:34:00,426] [DEBUG] [__init__:294] (16513.140250828647240) apply SNV QURIKS on UNKNOWN at 257 (created with None)
+[2017-02-24 17:34:00,426] [DEBUG] [namedb:1277] (16513.140250828647240) consensus_extra: {}
+[2017-02-24 17:34:00,426] [DEBUG] [namedb:1286] (16513.140250828647240) overwrites: []
+[2017-02-24 17:34:00,426] [DEBUG] [namedb:405] (16513.140250828647240) COMMIT NAMESPACE_PREORDER (*) at (257, 1) data: address='mgoZn4k6LuqiTYsVqQz9eu4LgpGVSz6NUC', block_number='257', consensus_hash='2a9148d8b13939723d2aca16c75c6d68', op='*', op_fee='400000000', preorder_hash='db207fcd2150f332a53a8ff0be2a12a85445a2a9', sender='76a9140e1c669e2756a79185299cb25ed043ab145f08f088ac', sender_pubkey='04d6fd1ba0effaf1e8d94ea7b7a3d0ef26fea00a14ce5ffcc1495fe588a2c6d0f35eaa22c01a35bee5817f03d769a3a38a3bb50182c61449ad125555daf26396fb', txid='9965d1d2d9a2f9710c41000b7cddcd0792ed55b5c182d1b565d57efb0fb22ec6', vtxindex='1'
+[2017-02-24 17:34:00,426] [DEBUG] [indexer:809] (16513.140250828647240) Snapshotting block 257
+[2017-02-24 17:34:00,427] [DEBUG] [indexer:771] (16513.140250828647240) SERIALIZE: *:preorder_hash=40:db207fcd2150f332a53a8ff0be2a12a85445a2a9,consensus_hash=32:2a9148d8b13939723d2aca16c75c6d68,op=1:*,op_fee=9:400000000,txid=64:9965d1d2d9a2f9710c41000b7cddcd0792ed55b5c182d1b565d57efb0fb22ec6,vtxindex=1:1,block_number=3:257,sender=50:76a9140e1c669e2756a79185299cb25ed043ab145f08f088ac,sender_pubkey=130:04d6fd1ba0effaf1e8d94ea7b7a3d0ef26fea00a14ce5ffcc1495fe588a2c6d0f35eaa22c01a35bee5817f03d769a3a38a3bb50182c61449ad125555daf26396fb,address=34:mgoZn4k6LuqiTYsVqQz9eu4LgpGVSz6NUC
+[2017-02-24 17:34:00,427] [DEBUG] [indexer:822] (16513.140250828647240) Snapshotting block 257: consensus hash of 256 is 2a9148d8b13939723d2aca16c75c6d68
+[2017-02-24 17:34:00,427] [DEBUG] [indexer:730] (16513.140250828647240) Snapshot('f26286465941576293bb52919f609f286d6db3a3a7022d66a866e75ee0be8141', ['2a9148d8b13939723d2aca16c75c6d68'])
+[2017-02-24 17:34:00,427] [DEBUG] [namedb:753] (16513.140250828647240) Get all ops at 257 in /tmp/blockstack-test-databases-UTj4MH/work.257/blockstack.db.257
+[2017-02-24 17:34:00,427] [DEBUG] [db:1834] (16513.140250828647240) 0 name-preorder/import states at 257
+[2017-02-24 17:34:00,427] [DEBUG] [db:1889] (16513.140250828647240) 0 name-change states at 257
+[2017-02-24 17:34:00,427] [DEBUG] [db:1935] (16513.140250828647240) 1 preorders created at 257
+[2017-02-24 17:34:00,427] [DEBUG] [db:1979] (16513.140250828647240) 0 namespace-preorder states at 257
+[2017-02-24 17:34:00,428] [DEBUG] [db:2027] (16513.140250828647240) 0 namespace-change states at 257
+[2017-02-24 17:34:00,428] [DEBUG] [namedb:96] (16513.140250828647240) Initialize database from '/tmp/blockstack-test-databases-UTj4MH/work.257/blockstack-server.db'
+[2017-02-24 17:34:01,102] [DEBUG] [indexer:190] (16513.140250828647240) consensus snapshots at '/tmp/blockstack-test-databases-UTj4MH/work.257/blockstack-server.snapshots'
+[2017-02-24 17:34:01,102] [DEBUG] [indexer:225] (16513.140250828647240) lastblock at '/tmp/blockstack-test-databases-UTj4MH/work.257/blockstack-server.lastblock'
+[2017-02-24 17:34:01,102] [DEBUG] [indexer:228] (16513.140250828647240) Lastblock: 256 (/tmp/blockstack-test-databases-UTj4MH/work.257/blockstack-server.lastblock)
+[2017-02-24 17:34:01,103] [DEBUG] [__init__:294] (16513.140250828647240) apply SNV QURIKS on UNKNOWN at 257 (created with None)
+[2017-02-24 17:34:01,103] [DEBUG] [indexer:771] (16513.140250828647240) SERIALIZE: *:preorder_hash=40:db207fcd2150f332a53a8ff0be2a12a85445a2a9,consensus_hash=32:2a9148d8b13939723d2aca16c75c6d68,op=1:*,op_fee=9:400000000,txid=64:9965d1d2d9a2f9710c41000b7cddcd0792ed55b5c182d1b565d57efb0fb22ec6,vtxindex=1:1,block_number=3:257,sender=50:76a9140e1c669e2756a79185299cb25ed043ab145f08f088ac,sender_pubkey=130:04d6fd1ba0effaf1e8d94ea7b7a3d0ef26fea00a14ce5ffcc1495fe588a2c6d0f35eaa22c01a35bee5817f03d769a3a38a3bb50182c61449ad125555daf26396fb,address=34:mgoZn4k6LuqiTYsVqQz9eu4LgpGVSz6NUC
+[2017-02-24 17:34:01,160] [DEBUG] [namedb:1751] (16513.140250828647240) ops hash at 257 is f26286465941576293bb52919f609f286d6db3a3a7022d66a866e75ee0be8141
+[2017-02-24 17:34:01,160] [DEBUG] [virtualchain_hooks:410] (16513.140250828647240) Synchronize Atlas DB for 256
+[2017-02-24 17:34:01,177] [DEBUG] [namedb:753] (16513.140250828647240) Get all ops at 256 in /tmp/blockstack-test-databases-UTj4MH/work.257/blockstack.db.257
+[2017-02-24 17:34:01,177] [DEBUG] [db:1834] (16513.140250828647240) 0 name-preorder/import states at 256
+[2017-02-24 17:34:01,177] [DEBUG] [db:1889] (16513.140250828647240) 0 name-change states at 256
+[2017-02-24 17:34:01,177] [DEBUG] [db:1935] (16513.140250828647240) 0 preorders created at 256
+[2017-02-24 17:34:01,177] [DEBUG] [db:1979] (16513.140250828647240) 0 namespace-preorder states at 256
+[2017-02-24 17:34:01,177] [DEBUG] [db:2027] (16513.140250828647240) 0 namespace-change states at 256
+[2017-02-24 17:34:01,177] [DEBUG] [atlas:859] (16513.140250828647240) Queued 0 zonefiles from 256-256
+[2017-02-24 17:34:01,218] [DEBUG] [indexer:391] (16513.140250828647240) Rename 'lastblock': /tmp/blockstack-test-databases-UTj4MH/work.257/blockstack-server.lastblock.tmp --> /tmp/blockstack-test-databases-UTj4MH/work.257/blockstack-server.lastblock
+[2017-02-24 17:34:01,252] [DEBUG] [indexer:391] (16513.140250828647240) Rename 'snapshots': /tmp/blockstack-test-databases-UTj4MH/work.257/blockstack-server.snapshots.tmp --> /tmp/blockstack-test-databases-UTj4MH/work.257/blockstack-server.snapshots
+[2017-02-24 17:34:01,286] [DEBUG] [consensus:275] (16513.140250828647240) VERIFY CONSENSUS(257): d0bdfdc988e6836580012151761a9ec2
+[2017-02-24 17:34:01,286] [DEBUG] [consensus:253] (16513.140250828647240) Rebuilding database from 256 to 258
+[2017-02-24 17:34:01,286] [DEBUG] [namedb:98] (16513.140250828647240) Connect to database '/tmp/blockstack-test-databases-UTj4MH/blockstack.db.258'
+[2017-02-24 17:34:01,287] [DEBUG] [indexer:206] (16513.140250828647240) consensus snapshots at '/tmp/blockstack-test-databases-UTj4MH/work.258/blockstack-server.snapshots'
+[2017-02-24 17:34:01,287] [DEBUG] [indexer:236] (16513.140250828647240) lastblock at '/tmp/blockstack-test-databases-UTj4MH/work.258/blockstack-server.lastblock'
+[2017-02-24 17:34:01,287] [DEBUG] [indexer:238] (16513.140250828647240) Store lastblock 255 to /tmp/blockstack-test-databases-UTj4MH/work.258/blockstack-server.lastblock
+[2017-02-24 17:34:01,287] [DEBUG] [namedb:96] (16513.140250828647240) Initialize database from '/tmp/blockstack-test-databases-UTj4MH/work.258/blockstack.db.258'
+[2017-02-24 17:34:02,043] [DEBUG] [indexer:190] (16513.140250828647240) consensus snapshots at '/tmp/blockstack-test-databases-UTj4MH/work.258/blockstack-server.snapshots'
+[2017-02-24 17:34:02,043] [DEBUG] [indexer:225] (16513.140250828647240) lastblock at '/tmp/blockstack-test-databases-UTj4MH/work.258/blockstack-server.lastblock'
+[2017-02-24 17:34:02,043] [DEBUG] [indexer:228] (16513.140250828647240) Lastblock: 255 (/tmp/blockstack-test-databases-UTj4MH/work.258/blockstack-server.lastblock)
+[2017-02-24 17:34:02,043] [DEBUG] [namedb:753] (16513.140250828647240) Get all ops at 256 in /tmp/blockstack-test-databases-UTj4MH/blockstack.db.258
+[2017-02-24 17:34:02,044] [DEBUG] [db:1834] (16513.140250828647240) 0 name-preorder/import states at 256
+[2017-02-24 17:34:02,044] [DEBUG] [db:1889] (16513.140250828647240) 0 name-change states at 256
+[2017-02-24 17:34:02,044] [DEBUG] [db:1935] (16513.140250828647240) 0 preorders created at 256
+[2017-02-24 17:34:02,044] [DEBUG] [db:1979] (16513.140250828647240) 0 namespace-preorder states at 256
+[2017-02-24 17:34:02,045] [DEBUG] [db:2027] (16513.140250828647240) 0 namespace-change states at 256
+[2017-02-24 17:34:02,045] [DEBUG] [consensus:146] (16513.140250828647240) Records at 256: 0
+[2017-02-24 17:34:02,045] [DEBUG] [indexer:1067] (16513.140250828647240) Process block 256 (0 virtual transactions)
+[2017-02-24 17:34:02,045] [DEBUG] [indexer:809] (16513.140250828647240) Snapshotting block 256
+[2017-02-24 17:34:02,045] [DEBUG] [indexer:730] (16513.140250828647240) Snapshot('5df6e0e2761359d30a8275058e299fcc0381534545f55cf43e41983f5d4c9456', [])
+[2017-02-24 17:34:02,045] [DEBUG] [namedb:753] (16513.140250828647240) Get all ops at 256 in /tmp/blockstack-test-databases-UTj4MH/work.258/blockstack.db.258
+[2017-02-24 17:34:02,045] [DEBUG] [db:1834] (16513.140250828647240) 0 name-preorder/import states at 256
+[2017-02-24 17:34:02,045] [DEBUG] [db:1889] (16513.140250828647240) 0 name-change states at 256
+[2017-02-24 17:34:02,045] [DEBUG] [db:1935] (16513.140250828647240) 0 preorders created at 256
+[2017-02-24 17:34:02,045] [DEBUG] [db:1979] (16513.140250828647240) 0 namespace-preorder states at 256
+[2017-02-24 17:34:02,046] [DEBUG] [db:2027] (16513.140250828647240) 0 namespace-change states at 256
+[2017-02-24 17:34:02,104] [DEBUG] [namedb:1751] (16513.140250828647240) ops hash at 256 is 5df6e0e2761359d30a8275058e299fcc0381534545f55cf43e41983f5d4c9456
+[2017-02-24 17:34:02,104] [DEBUG] [virtualchain_hooks:410] (16513.140250828647240) Synchronize Atlas DB for 255
+[2017-02-24 17:34:02,122] [DEBUG] [namedb:753] (16513.140250828647240) Get all ops at 255 in /tmp/blockstack-test-databases-UTj4MH/work.258/blockstack.db.258
+[2017-02-24 17:34:02,122] [DEBUG] [db:1834] (16513.140250828647240) 0 name-preorder/import states at 255
+[2017-02-24 17:34:02,122] [DEBUG] [db:1889] (16513.140250828647240) 0 name-change states at 255
+[2017-02-24 17:34:02,122] [DEBUG] [db:1935] (16513.140250828647240) 0 preorders created at 255
+[2017-02-24 17:34:02,122] [DEBUG] [db:1979] (16513.140250828647240) 0 namespace-preorder states at 255
+[2017-02-24 17:34:02,122] [DEBUG] [db:2027] (16513.140250828647240) 0 namespace-change states at 255
+[2017-02-24 17:34:02,122] [DEBUG] [atlas:859] (16513.140250828647240) Queued 0 zonefiles from 255-255
+[2017-02-24 17:34:02,160] [DEBUG] [indexer:391] (16513.140250828647240) Rename 'lastblock': /tmp/blockstack-test-databases-UTj4MH/work.258/blockstack-server.lastblock.tmp --> /tmp/blockstack-test-databases-UTj4MH/work.258/blockstack-server.lastblock
+[2017-02-24 17:34:02,194] [DEBUG] [indexer:391] (16513.140250828647240) Rename 'snapshots': /tmp/blockstack-test-databases-UTj4MH/work.258/blockstack-server.snapshots.tmp --> /tmp/blockstack-test-databases-UTj4MH/work.258/blockstack-server.snapshots
+[2017-02-24 17:34:02,227] [DEBUG] [consensus:275] (16513.140250828647240) VERIFY CONSENSUS(256): 2a9148d8b13939723d2aca16c75c6d68
+[2017-02-24 17:34:02,228] [DEBUG] [namedb:753] (16513.140250828647240) Get all ops at 257 in /tmp/blockstack-test-databases-UTj4MH/blockstack.db.258
+[2017-02-24 17:34:02,228] [DEBUG] [db:1834] (16513.140250828647240) 0 name-preorder/import states at 257
+[2017-02-24 17:34:02,228] [DEBUG] [db:1889] (16513.140250828647240) 0 name-change states at 257
+[2017-02-24 17:34:02,228] [DEBUG] [db:1935] (16513.140250828647240) 0 preorders created at 257
+[2017-02-24 17:34:02,228] [DEBUG] [db:1979] (16513.140250828647240) 1 namespace-preorder states at 257
+[2017-02-24 17:34:02,228] [DEBUG] [db:2027] (16513.140250828647240) 0 namespace-change states at 257
+[2017-02-24 17:34:02,228] [DEBUG] [consensus:146] (16513.140250828647240) Records at 257: 1
+[2017-02-24 17:34:02,229] [DEBUG] [consensus:207] (16513.140250828647240) Recover NAMESPACE_PREORDER
+[2017-02-24 17:34:02,229] [DEBUG] [__init__:293] (16513.140250828647240) apply RESTORE DIFF QUIRKS on UNKNOWN at 257[0] (created with None)
+[2017-02-24 17:34:02,229] [DEBUG] [indexer:1067] (16513.140250828647240) Process block 257 (1 virtual transactions)
+[2017-02-24 17:34:02,229] [DEBUG] [virtualchain_hooks:290] (16513.140250828647240) CHECK NAMESPACE_PREORDER at (257, 1)
+[2017-02-24 17:34:02,229] [DEBUG] [namedb:390] (16513.140250828647240) ACCEPT NAMESPACE_PREORDER at (257, 1) data: address='mgoZn4k6LuqiTYsVqQz9eu4LgpGVSz6NUC', block_number='257', consensus_hash='2a9148d8b13939723d2aca16c75c6d68', op='*', op_fee='400000000', preorder_hash='db207fcd2150f332a53a8ff0be2a12a85445a2a9', sender='76a9140e1c669e2756a79185299cb25ed043ab145f08f088ac', sender_pubkey='04d6fd1ba0effaf1e8d94ea7b7a3d0ef26fea00a14ce5ffcc1495fe588a2c6d0f35eaa22c01a35bee5817f03d769a3a38a3bb50182c61449ad125555daf26396fb', txid='9965d1d2d9a2f9710c41000b7cddcd0792ed55b5c182d1b565d57efb0fb22ec6', vtxindex='1'
+[2017-02-24 17:34:02,230] [DEBUG] [db:411] (16513.140250828647240) INSERT INTO preorders (address,block_number,consensus_hash,op,op_fee,preorder_hash,sender,sender_pubkey,txid,vtxindex) VALUES ( 'mgoZn4k6LuqiTYsVqQz9eu4LgpGVSz6NUC', 257, '2a9148d8b13939723d2aca16c75c6d68', '*', 400000000, 'db207fcd2150f332a53a8ff0be2a12a85445a2a9', '76a9140e1c669e2756a79185299cb25ed043ab145f08f088ac', '04d6fd1ba0effaf1e8d94ea7b7a3d0ef26fea00a14ce5ffcc1495fe588a2c6d0f35eaa22c01a35bee5817f03d769a3a38a3bb50182c61449ad125555daf26396fb', '9965d1d2d9a2f9710c41000b7cddcd0792ed55b5c182d1b565d57efb0fb22ec6', 1); ''
+[2017-02-24 17:34:02,279] [DEBUG] [namedb:1268] (16513.140250828647240) add all consensus values for NAMESPACE_PREORDER at 257
+[2017-02-24 17:34:02,279] [DEBUG] [__init__:294] (16513.140250828647240) apply SNV QURIKS on UNKNOWN at 257 (created with None)
+[2017-02-24 17:34:02,279] [DEBUG] [namedb:1277] (16513.140250828647240) consensus_extra: {}
+[2017-02-24 17:34:02,279] [DEBUG] [namedb:1286] (16513.140250828647240) overwrites: []
+[2017-02-24 17:34:02,279] [DEBUG] [namedb:405] (16513.140250828647240) COMMIT NAMESPACE_PREORDER (*) at (257, 1) data: address='mgoZn4k6LuqiTYsVqQz9eu4LgpGVSz6NUC', block_number='257', consensus_hash='2a9148d8b13939723d2aca16c75c6d68', op='*', op_fee='400000000', preorder_hash='db207fcd2150f332a53a8ff0be2a12a85445a2a9', sender='76a9140e1c669e2756a79185299cb25ed043ab145f08f088ac', sender_pubkey='04d6fd1ba0effaf1e8d94ea7b7a3d0ef26fea00a14ce5ffcc1495fe588a2c6d0f35eaa22c01a35bee5817f03d769a3a38a3bb50182c61449ad125555daf26396fb', txid='9965d1d2d9a2f9710c41000b7cddcd0792ed55b5c182d1b565d57efb0fb22ec6', vtxindex='1'
+[2017-02-24 17:34:02,279] [DEBUG] [indexer:809] (16513.140250828647240) Snapshotting block 257
+[2017-02-24 17:34:02,279] [DEBUG] [indexer:771] (16513.140250828647240) SERIALIZE: *:preorder_hash=40:db207fcd2150f332a53a8ff0be2a12a85445a2a9,consensus_hash=32:2a9148d8b13939723d2aca16c75c6d68,op=1:*,op_fee=9:400000000,txid=64:9965d1d2d9a2f9710c41000b7cddcd0792ed55b5c182d1b565d57efb0fb22ec6,vtxindex=1:1,block_number=3:257,sender=50:76a9140e1c669e2756a79185299cb25ed043ab145f08f088ac,sender_pubkey=130:04d6fd1ba0effaf1e8d94ea7b7a3d0ef26fea00a14ce5ffcc1495fe588a2c6d0f35eaa22c01a35bee5817f03d769a3a38a3bb50182c61449ad125555daf26396fb,address=34:mgoZn4k6LuqiTYsVqQz9eu4LgpGVSz6NUC
+[2017-02-24 17:34:02,279] [DEBUG] [indexer:822] (16513.140250828647240) Snapshotting block 257: consensus hash of 256 is 2a9148d8b13939723d2aca16c75c6d68
+[2017-02-24 17:34:02,279] [DEBUG] [indexer:730] (16513.140250828647240) Snapshot('f26286465941576293bb52919f609f286d6db3a3a7022d66a866e75ee0be8141', ['2a9148d8b13939723d2aca16c75c6d68'])
+[2017-02-24 17:34:02,280] [DEBUG] [namedb:753] (16513.140250828647240) Get all ops at 257 in /tmp/blockstack-test-databases-UTj4MH/work.258/blockstack.db.258
+[2017-02-24 17:34:02,280] [DEBUG] [db:1834] (16513.140250828647240) 0 name-preorder/import states at 257
+[2017-02-24 17:34:02,280] [DEBUG] [db:1889] (16513.140250828647240) 0 name-change states at 257
+[2017-02-24 17:34:02,280] [DEBUG] [db:1935] (16513.140250828647240) 1 preorders created at 257
+[2017-02-24 17:34:02,280] [DEBUG] [db:1979] (16513.140250828647240) 0 namespace-preorder states at 257
+[2017-02-24 17:34:02,280] [DEBUG] [db:2027] (16513.140250828647240) 0 namespace-change states at 257
+[2017-02-24 17:34:02,280] [DEBUG] [namedb:96] (16513.140250828647240) Initialize database from '/tmp/blockstack-test-databases-UTj4MH/work.258/blockstack-server.db'
+[2017-02-24 17:34:03,091] [DEBUG] [indexer:190] (16513.140250828647240) consensus snapshots at '/tmp/blockstack-test-databases-UTj4MH/work.258/blockstack-server.snapshots'
+[2017-02-24 17:34:03,091] [DEBUG] [indexer:225] (16513.140250828647240) lastblock at '/tmp/blockstack-test-databases-UTj4MH/work.258/blockstack-server.lastblock'
+[2017-02-24 17:34:03,091] [DEBUG] [indexer:228] (16513.140250828647240) Lastblock: 256 (/tmp/blockstack-test-databases-UTj4MH/work.258/blockstack-server.lastblock)
+[2017-02-24 17:34:03,092] [DEBUG] [__init__:294] (16513.140250828647240) apply SNV QURIKS on UNKNOWN at 257 (created with None)
+[2017-02-24 17:34:03,092] [DEBUG] [indexer:771] (16513.140250828647240) SERIALIZE: *:preorder_hash=40:db207fcd2150f332a53a8ff0be2a12a85445a2a9,consensus_hash=32:2a9148d8b13939723d2aca16c75c6d68,op=1:*,op_fee=9:400000000,txid=64:9965d1d2d9a2f9710c41000b7cddcd0792ed55b5c182d1b565d57efb0fb22ec6,vtxindex=1:1,block_number=3:257,sender=50:76a9140e1c669e2756a79185299cb25ed043ab145f08f088ac,sender_pubkey=130:04d6fd1ba0effaf1e8d94ea7b7a3d0ef26fea00a14ce5ffcc1495fe588a2c6d0f35eaa22c01a35bee5817f03d769a3a38a3bb50182c61449ad125555daf26396fb,address=34:mgoZn4k6LuqiTYsVqQz9eu4LgpGVSz6NUC
+[2017-02-24 17:34:03,146] [DEBUG] [namedb:1751] (16513.140250828647240) ops hash at 257 is f26286465941576293bb52919f609f286d6db3a3a7022d66a866e75ee0be8141
+[2017-02-24 17:34:03,146] [DEBUG] [virtualchain_hooks:410] (16513.140250828647240) Synchronize Atlas DB for 256
+[2017-02-24 17:34:03,163] [DEBUG] [namedb:753] (16513.140250828647240) Get all ops at 256 in /tmp/blockstack-test-databases-UTj4MH/work.258/blockstack.db.258
+[2017-02-24 17:34:03,163] [DEBUG] [db:1834] (16513.140250828647240) 0 name-preorder/import states at 256
+[2017-02-24 17:34:03,163] [DEBUG] [db:1889] (16513.140250828647240) 0 name-change states at 256
+[2017-02-24 17:34:03,164] [DEBUG] [db:1935] (16513.140250828647240) 0 preorders created at 256
+[2017-02-24 17:34:03,164] [DEBUG] [db:1979] (16513.140250828647240) 0 namespace-preorder states at 256
+[2017-02-24 17:34:03,164] [DEBUG] [db:2027] (16513.140250828647240) 0 namespace-change states at 256
+[2017-02-24 17:34:03,164] [DEBUG] [atlas:859] (16513.140250828647240) Queued 0 zonefiles from 256-256
+[2017-02-24 17:34:03,201] [DEBUG] [indexer:391] (16513.140250828647240) Rename 'lastblock': /tmp/blockstack-test-databases-UTj4MH/work.258/blockstack-server.lastblock.tmp --> /tmp/blockstack-test-databases-UTj4MH/work.258/blockstack-server.lastblock
+[2017-02-24 17:34:03,235] [DEBUG] [indexer:391] (16513.140250828647240) Rename 'snapshots': /tmp/blockstack-test-databases-UTj4MH/work.258/blockstack-server.snapshots.tmp --> /tmp/blockstack-test-databases-UTj4MH/work.258/blockstack-server.snapshots
+[2017-02-24 17:34:03,269] [DEBUG] [consensus:275] (16513.140250828647240) VERIFY CONSENSUS(257): d0bdfdc988e6836580012151761a9ec2
+[2017-02-24 17:34:03,269] [DEBUG] [namedb:753] (16513.140250828647240) Get all ops at 258 in /tmp/blockstack-test-databases-UTj4MH/blockstack.db.258
+[2017-02-24 17:34:03,269] [DEBUG] [db:1834] (16513.140250828647240) 0 name-preorder/import states at 258
+[2017-02-24 17:34:03,269] [DEBUG] [db:1889] (16513.140250828647240) 0 name-change states at 258
+[2017-02-24 17:34:03,269] [DEBUG] [db:1935] (16513.140250828647240) 0 preorders created at 258
+[2017-02-24 17:34:03,269] [DEBUG] [db:1979] (16513.140250828647240) 0 namespace-preorder states at 258
+[2017-02-24 17:34:03,270] [DEBUG] [db:2027] (16513.140250828647240) 1 namespace-change states at 258
+[2017-02-24 17:34:03,270] [DEBUG] [consensus:146] (16513.140250828647240) Records at 258: 1
+[2017-02-24 17:34:03,270] [DEBUG] [consensus:197] (16513.140250828647240) OP 'NAMESPACE_REVEAL': Removing untrusted field 'op_fee'
+[2017-02-24 17:34:03,270] [DEBUG] [consensus:197] (16513.140250828647240) OP 'NAMESPACE_REVEAL': Removing untrusted field 'ready_block'
+[2017-02-24 17:34:03,270] [DEBUG] [consensus:207] (16513.140250828647240) Recover NAMESPACE_REVEAL
+[2017-02-24 17:34:03,271] [DEBUG] [__init__:293] (16513.140250828647240) apply RESTORE DIFF QUIRKS on UNKNOWN at 258[0] (created with None)
+[2017-02-24 17:34:03,272] [DEBUG] [indexer:1067] (16513.140250828647240) Process block 258 (1 virtual transactions)
+[2017-02-24 17:34:03,272] [DEBUG] [db:1512] (16513.140250828647240) SELECT * FROM namespaces WHERE namespace_id =  'test' AND ((op =  '!') OR (op =  '&'  AND namespaces.reveal_block <=  258 )) ''
+[2017-02-24 17:34:03,272] [DEBUG] [namespacereveal:195] (16513.140250828647240) Revealing for the first time: 'test'
+[2017-02-24 17:34:03,273] [DEBUG] [virtualchain_hooks:290] (16513.140250828647240) CHECK NAMESPACE_REVEAL at (258, 1)
+[2017-02-24 17:34:03,273] [DEBUG] [db:1512] (16513.140250828647240) SELECT * FROM namespaces WHERE namespace_id =  'test' AND ((op =  '!') OR (op =  '&'  AND namespaces.reveal_block <=  258 )) ''
+[2017-02-24 17:34:03,273] [DEBUG] [namespacereveal:195] (16513.140250828647240) Revealing for the first time: 'test'
+[2017-02-24 17:34:03,273] [DEBUG] [namedb:390] (16513.140250828647240) ACCEPT NAMESPACE_REVEAL at (258, 1) data: address='mgoZn4k6LuqiTYsVqQz9eu4LgpGVSz6NUC', base='4', block_number='257', buckets='[6, 5, 4, 3, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]', coeff='250', lifetime='52595', namespace_id='test', no_vowel_discount='10', nonalpha_discount='10', op='&', op_fee='400000000', preorder_hash='db207fcd2150f332a53a8ff0be2a12a85445a2a9', ready_block='0', recipient='76a914b7e40511f53f69045cb14c6c5a714d6a4ffe3a3788ac', recipient_address='mxHH7Fch85gD2i74yaWQxeqBkwk2NvzdWq', reveal_block='258', sender='76a9140e1c669e2756a79185299cb25ed043ab145f08f088ac', sender_pubkey='04d6fd1ba0effaf1e8d94ea7b7a3d0ef26fea00a14ce5ffcc1495fe588a2c6d0f35eaa22c01a35bee5817f03d769a3a38a3bb50182c61449ad125555daf26396fb', txid='a5b6013e3abc1f620c7605785d2dcf0af5b0459e6613bfeab2b0ada181a7be19', version='1', vtxindex='1'
+[2017-02-24 17:34:03,273] [DEBUG] [db:1276] (16513.140250828647240) SAVE HISTORY test AT (258, 1)
+[2017-02-24 17:34:03,274] [DEBUG] [db:411] (16513.140250828647240) INSERT INTO history (block_id,history_data,history_id,op,txid,vtxindex) VALUES ( 258, '{"block_number": 257, "sender": "76a9140e1c669e2756a79185299cb25ed043ab145f08f088ac", "sender_pubkey": "04d6fd1ba0effaf1e8d94ea7b7a3d0ef26fea00a14ce5ffcc1495fe588a2c6d0f35eaa22c01a35bee5817f03d769a3a38a3bb50182c61449ad125555daf26396fb", "consensus_hash": "2a9148d8b13939723d2aca16c75c6d68", "txid": "9965d1d2d9a2f9710c41000b7cddcd0792ed55b5c182d1b565d57efb0fb22ec6", "op_fee": 400000000, "address": "mgoZn4k6LuqiTYsVqQz9eu4LgpGVSz6NUC", "preorder_hash": "db207fcd2150f332a53a8ff0be2a12a85445a2a9", "history_snapshot": true, "vtxindex": 1, "op": "*"}', 'test', '*', 'a5b6013e3abc1f620c7605785d2dcf0af5b0459e6613bfeab2b0ada181a7be19', 1); ''
+[2017-02-24 17:34:03,321] [DEBUG] [db:411] (16513.140250828647240) INSERT INTO namespaces (address,base,block_number,buckets,coeff,lifetime,namespace_id,no_vowel_discount,nonalpha_discount,op,op_fee,preorder_hash,ready_block,recipient,recipient_address,reveal_block,sender,sender_pubkey,txid,version,vtxindex) VALUES ( 'mgoZn4k6LuqiTYsVqQz9eu4LgpGVSz6NUC', 4, 257, '[6, 5, 4, 3, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]', 250, 52595, 'test', 10, 10, '&', 400000000, 'db207fcd2150f332a53a8ff0be2a12a85445a2a9', 0, '76a914b7e40511f53f69045cb14c6c5a714d6a4ffe3a3788ac', 'mxHH7Fch85gD2i74yaWQxeqBkwk2NvzdWq', 258, '76a9140e1c669e2756a79185299cb25ed043ab145f08f088ac', '04d6fd1ba0effaf1e8d94ea7b7a3d0ef26fea00a14ce5ffcc1495fe588a2c6d0f35eaa22c01a35bee5817f03d769a3a38a3bb50182c61449ad125555daf26396fb', 'a5b6013e3abc1f620c7605785d2dcf0af5b0459e6613bfeab2b0ada181a7be19', 1, 1); ''
+[2017-02-24 17:34:03,421] [DEBUG] [namedb:1268] (16513.140250828647240) add all consensus values for NAMESPACE_REVEAL at 258
+[2017-02-24 17:34:03,421] [DEBUG] [__init__:294] (16513.140250828647240) apply SNV QURIKS on UNKNOWN at 258 (created with None)
+[2017-02-24 17:34:03,421] [DEBUG] [namedb:1277] (16513.140250828647240) consensus_extra: {}
+[2017-02-24 17:34:03,421] [DEBUG] [namedb:1286] (16513.140250828647240) overwrites: []
+[2017-02-24 17:34:03,421] [DEBUG] [namedb:405] (16513.140250828647240) COMMIT NAMESPACE_REVEAL (&) at (258, 1) data: address='mgoZn4k6LuqiTYsVqQz9eu4LgpGVSz6NUC', base='4', block_number='257', buckets='[6, 5, 4, 3, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]', coeff='250', lifetime='52595', namespace_id='test', no_vowel_discount='10', nonalpha_discount='10', op='&', op_fee='400000000', preorder_hash='db207fcd2150f332a53a8ff0be2a12a85445a2a9', ready_block='0', recipient='76a914b7e40511f53f69045cb14c6c5a714d6a4ffe3a3788ac', recipient_address='mxHH7Fch85gD2i74yaWQxeqBkwk2NvzdWq', reveal_block='258', sender='76a9140e1c669e2756a79185299cb25ed043ab145f08f088ac', sender_pubkey='04d6fd1ba0effaf1e8d94ea7b7a3d0ef26fea00a14ce5ffcc1495fe588a2c6d0f35eaa22c01a35bee5817f03d769a3a38a3bb50182c61449ad125555daf26396fb', txid='a5b6013e3abc1f620c7605785d2dcf0af5b0459e6613bfeab2b0ada181a7be19', version='1', vtxindex='1'
+[2017-02-24 17:34:03,421] [DEBUG] [indexer:809] (16513.140250828647240) Snapshotting block 258
+[2017-02-24 17:34:03,421] [DEBUG] [indexer:771] (16513.140250828647240) SERIALIZE: &:namespace_id=4:test,preorder_hash=40:db207fcd2150f332a53a8ff0be2a12a85445a2a9,version=1:1,sender=50:76a9140e1c669e2756a79185299cb25ed043ab145f08f088ac,sender_pubkey=130:04d6fd1ba0effaf1e8d94ea7b7a3d0ef26fea00a14ce5ffcc1495fe588a2c6d0f35eaa22c01a35bee5817f03d769a3a38a3bb50182c61449ad125555daf26396fb,address=34:mgoZn4k6LuqiTYsVqQz9eu4LgpGVSz6NUC,recipient=50:76a914b7e40511f53f69045cb14c6c5a714d6a4ffe3a3788ac,recipient_address=34:mxHH7Fch85gD2i74yaWQxeqBkwk2NvzdWq,block_number=3:257,reveal_block=3:258,op=1:&,txid=64:a5b6013e3abc1f620c7605785d2dcf0af5b0459e6613bfeab2b0ada181a7be19,vtxindex=1:1,lifetime=5:52595,coeff=3:250,base=1:4,buckets=48:[6, 5, 4, 3, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],nonalpha_discount=2:10,no_vowel_discount=2:10
+[2017-02-24 17:34:03,421] [DEBUG] [indexer:822] (16513.140250828647240) Snapshotting block 258: consensus hash of 257 is d0bdfdc988e6836580012151761a9ec2
+[2017-02-24 17:34:03,422] [DEBUG] [indexer:730] (16513.140250828647240) Snapshot('904721aa104dd500b7acdcbe912d097cfd441f89dd1cac991d80a4ec9662f80d', ['d0bdfdc988e6836580012151761a9ec2'])
+[2017-02-24 17:34:03,422] [DEBUG] [namedb:753] (16513.140250828647240) Get all ops at 258 in /tmp/blockstack-test-databases-UTj4MH/work.258/blockstack.db.258
+[2017-02-24 17:34:03,422] [DEBUG] [db:1834] (16513.140250828647240) 0 name-preorder/import states at 258
+[2017-02-24 17:34:03,422] [DEBUG] [db:1889] (16513.140250828647240) 0 name-change states at 258
+[2017-02-24 17:34:03,422] [DEBUG] [db:1935] (16513.140250828647240) 0 preorders created at 258
+[2017-02-24 17:34:03,422] [DEBUG] [db:1979] (16513.140250828647240) 0 namespace-preorder states at 258
+[2017-02-24 17:34:03,423] [DEBUG] [db:2027] (16513.140250828647240) 1 namespace-change states at 258
+[2017-02-24 17:34:03,423] [DEBUG] [namedb:98] (16513.140250828647240) Connect to database '/tmp/blockstack-test-databases-UTj4MH/work.258/blockstack-server.db'
+[2017-02-24 17:34:03,423] [DEBUG] [indexer:190] (16513.140250828647240) consensus snapshots at '/tmp/blockstack-test-databases-UTj4MH/work.258/blockstack-server.snapshots'
+[2017-02-24 17:34:03,423] [DEBUG] [indexer:225] (16513.140250828647240) lastblock at '/tmp/blockstack-test-databases-UTj4MH/work.258/blockstack-server.lastblock'
+[2017-02-24 17:34:03,423] [DEBUG] [indexer:228] (16513.140250828647240) Lastblock: 257 (/tmp/blockstack-test-databases-UTj4MH/work.258/blockstack-server.lastblock)
+[2017-02-24 17:34:03,423] [DEBUG] [__init__:294] (16513.140250828647240) apply SNV QURIKS on UNKNOWN at 258 (created with None)
+[2017-02-24 17:34:03,424] [DEBUG] [indexer:771] (16513.140250828647240) SERIALIZE: &:namespace_id=4:test,preorder_hash=40:db207fcd2150f332a53a8ff0be2a12a85445a2a9,version=1:1,sender=50:76a9140e1c669e2756a79185299cb25ed043ab145f08f088ac,sender_pubkey=130:04d6fd1ba0effaf1e8d94ea7b7a3d0ef26fea00a14ce5ffcc1495fe588a2c6d0f35eaa22c01a35bee5817f03d769a3a38a3bb50182c61449ad125555daf26396fb,address=34:mgoZn4k6LuqiTYsVqQz9eu4LgpGVSz6NUC,recipient=50:76a914b7e40511f53f69045cb14c6c5a714d6a4ffe3a3788ac,recipient_address=34:mxHH7Fch85gD2i74yaWQxeqBkwk2NvzdWq,block_number=3:257,reveal_block=3:258,op=1:&,txid=64:a5b6013e3abc1f620c7605785d2dcf0af5b0459e6613bfeab2b0ada181a7be19,vtxindex=1:1,lifetime=5:52595,coeff=3:250,base=1:4,buckets=48:[6, 5, 4, 3, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],nonalpha_discount=2:10,no_vowel_discount=2:10
+[2017-02-24 17:34:03,471] [DEBUG] [namedb:1751] (16513.140250828647240) ops hash at 258 is 904721aa104dd500b7acdcbe912d097cfd441f89dd1cac991d80a4ec9662f80d
+[2017-02-24 17:34:03,471] [DEBUG] [virtualchain_hooks:410] (16513.140250828647240) Synchronize Atlas DB for 257
+[2017-02-24 17:34:03,488] [DEBUG] [namedb:753] (16513.140250828647240) Get all ops at 257 in /tmp/blockstack-test-databases-UTj4MH/work.258/blockstack.db.258
+[2017-02-24 17:34:03,488] [DEBUG] [db:1834] (16513.140250828647240) 0 name-preorder/import states at 257
+[2017-02-24 17:34:03,488] [DEBUG] [db:1889] (16513.140250828647240) 0 name-change states at 257
+[2017-02-24 17:34:03,488] [DEBUG] [db:1935] (16513.140250828647240) 0 preorders created at 257
+[2017-02-24 17:34:03,489] [DEBUG] [db:1979] (16513.140250828647240) 1 namespace-preorder states at 257
+[2017-02-24 17:34:03,489] [DEBUG] [db:2027] (16513.140250828647240) 0 namespace-change states at 257
+[2017-02-24 17:34:03,489] [DEBUG] [atlas:859] (16513.140250828647240) Queued 0 zonefiles from 257-257
+[2017-02-24 17:34:03,528] [DEBUG] [indexer:391] (16513.140250828647240) Rename 'lastblock': /tmp/blockstack-test-databases-UTj4MH/work.258/blockstack-server.lastblock.tmp --> /tmp/blockstack-test-databases-UTj4MH/work.258/blockstack-server.lastblock
+[2017-02-24 17:34:03,562] [DEBUG] [indexer:391] (16513.140250828647240) Rename 'snapshots': /tmp/blockstack-test-databases-UTj4MH/work.258/blockstack-server.snapshots.tmp --> /tmp/blockstack-test-databases-UTj4MH/work.258/blockstack-server.snapshots
+[2017-02-24 17:34:03,596] [DEBUG] [consensus:275] (16513.140250828647240) VERIFY CONSENSUS(258): 5a108350af6c8f86511194aaf28c6fa6
+[2017-02-24 17:34:03,596] [INFO] [blockstack-test-scenario:643] (16513.140250828647240) History check passes!
+[2017-02-24 17:34:03,596] [DEBUG] [namedb:98] (16513.140250828647240) Connect to database '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.db'
+[2017-02-24 17:34:03,597] [DEBUG] [indexer:190] (16513.140250828647240) consensus snapshots at '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.snapshots'
+[2017-02-24 17:34:03,597] [DEBUG] [indexer:225] (16513.140250828647240) lastblock at '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock'
+[2017-02-24 17:34:03,597] [DEBUG] [indexer:228] (16513.140250828647240) Lastblock: 258 (/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock)
+[2017-02-24 17:34:03,601] [DEBUG] [testlib:2304] (16513.140250828647240) API call: namespace_preorder test at 257
+[2017-02-24 17:34:03,602] [DEBUG] [testlib:2304] (16513.140250828647240) API call: namespace_reveal test at 258
+[2017-02-24 17:34:03,602] [DEBUG] [testlib:2365] (16513.140250828647240) SNV verify 0 names
+[2017-02-24 17:34:03,602] [INFO] [blockstack-test-scenario:663] (16513.140250828647240) SNV check passes!
+[2017-02-24 17:34:03,602] [DEBUG] [namedb:98] (16513.140250828647240) Connect to database '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.db'
+[2017-02-24 17:34:03,602] [DEBUG] [indexer:190] (16513.140250828647240) consensus snapshots at '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.snapshots'
+[2017-02-24 17:34:03,602] [DEBUG] [indexer:225] (16513.140250828647240) lastblock at '/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock'
+[2017-02-24 17:34:03,602] [DEBUG] [indexer:228] (16513.140250828647240) Lastblock: 258 (/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/blockstack-server.lastblock)
+[2017-02-24 17:34:03,603] [INFO] [blockstack-test-scenario:677] (16513.140250828647240) Atlas zonefile checks pass!
+[2017-02-24 17:34:03,603] [INFO] [blockstack-test-scenario:689] (16513.140250828647240) Data URL check pass!
+[2017-02-24 17:34:03,603] [DEBUG] [blockstackd:1924] (16513.140250828647240) Shutting down RPC
+[2017-02-24 17:34:03,964] [DEBUG] [blockstackd:1927] (16513.140250828647240) RPC joined
+[2017-02-24 17:34:03,964] [DEBUG] [blockstackd:1959] (16513.140250828647240) Draining storage pusher queue
+[2017-02-24 17:34:03,965] [DEBUG] [blockstackd:1962] (16513.140250828647240) Shutting down storage pusher
+[2017-02-24 17:34:03,965] [DEBUG] [blockstackd:1892] (16513.140250828647240) StoragePusher signal stop
+[2017-02-24 17:34:04,400] [DEBUG] [blockstackd:1886] (16513.140250695760560) StoragePusher thread exit
+[2017-02-24 17:34:04,400] [DEBUG] [blockstackd:1965] (16513.140250828647240) Storage pusher joined
+Bitcoin server stopping
+Not running (/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/client/api_endpoint.pid)
+
+
+
+bitcoind connection
+
+working_dir: /tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal
+
+
+verify 256 - 257 (/tmp/blockstack-test-databases-UTj4MH/blockstack.db.256), expect 2a9148d8b13939723d2aca16c75c6d68
+
+
+
+
+verify 256 - 258 (/tmp/blockstack-test-databases-UTj4MH/blockstack.db.257), expect d0bdfdc988e6836580012151761a9ec2
+
+
+
+
+verify 256 - 259 (/tmp/blockstack-test-databases-UTj4MH/blockstack.db.258), expect 5a108350af6c8f86511194aaf28c6fa6
+
+
+SUCCESS blockstack_integration_tests.scenarios.namespace_preorder_reveal
+[2017-02-24 17:34:04,408] [DEBUG] [blockstack-test-scenario:380] (16513.140250828647240) atexit_cleanup
+Not running (/tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.namespace_preorder_reveal/client/api_endpoint.pid)
+Bitcoin server stopping

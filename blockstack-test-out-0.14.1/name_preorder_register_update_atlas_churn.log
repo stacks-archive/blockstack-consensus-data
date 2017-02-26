@@ -1,0 +1,40 @@
+[2017-02-23 20:15:46,423] [DEBUG] [spv:110] (17772.139657956297544) Using testnet/regtest
+[2017-02-23 20:15:46,427] [DEBUG] [blockstack-test-scenario:976] (17772.139657956297544) Remove /tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.name_preorder_register_update_atlas_churn
+[2017-02-23 20:15:46,558] [DEBUG] [blockstack-test-scenario:198] (17772.139657956297544) Load scenario blockstack_integration_tests.scenarios.name_preorder_register_update_atlas_churn
+[2017-02-23 20:15:46,558] [DEBUG] [blockstack-test-scenario:205] (17772.139657956297544) Identifying scenario path
+[2017-02-23 20:15:48,994] [DEBUG] [blockstack-test-scenario:217] (17772.139657956297544) Path of blockstack_integration_tests.scenarios.name_preorder_register_update_atlas_churn is blockstack_integration_tests/scenarios/name_preorder_register_update_atlas_churn.py
+[2017-02-23 20:15:48,995] [DEBUG] [blockstack-test-scenario:232] (17772.139657956297544) export BLOCKSTACK_ATLAS_NUM_NEIGHBORS='10'
+TEST ACTIVE: FIRST_BLOCK_MAINNET = 256
+[2017-02-23 20:15:49,132] [WARNING] [config:438] (17772.139657956297544) (17772): in test environment
+[2017-02-23 20:15:49,132] [WARNING] [config:459] (17772.139657956297544) NUM_CONFIRMATIONS = 0
+[2017-02-23 20:15:49,524] [DEBUG] [testlib:78] (17772.139657956297544) Wallet 6e50431b955fe73f079469b24f06480aee44e4519282686433195b3c4b5336ef (mgoZn4k6LuqiTYsVqQz9eu4LgpGVSz6NUC)
+TEST ACTIVE: TX_MIN_CONFIRMATIONS = 0
+TEST ACTIVE: CONFIG_PATH = /tmp/blockstack-run-scenario.blockstack_integration_tests.scenarios.name_preorder_register_update_atlas_churn/client/client.ini
+Traceback (most recent call last):
+  File "/usr/bin/blockstack-test-scenario", line 4, in <module>
+    __import__('pkg_resources').run_script('blockstack-integration-tests==0.14.1', 'blockstack-test-scenario')
+  File "/usr/lib/python2.7/site-packages/pkg_resources/__init__.py", line 743, in run_script
+    self.require(requires)[0].run_script(script_name, ns)
+  File "/usr/lib/python2.7/site-packages/pkg_resources/__init__.py", line 1498, in run_script
+    exec(code, namespace, namespace)
+  File "/usr/lib/python2.7/site-packages/blockstack_integration_tests-0.14.1-py2.7.egg/EGG-INFO/scripts/blockstack-test-scenario", line 1002, in <module>
+    scenario = load_scenario( scenario_module )
+  File "/usr/lib/python2.7/site-packages/blockstack_integration_tests-0.14.1-py2.7.egg/EGG-INFO/scripts/blockstack-test-scenario", line 235, in load_scenario
+    scenario = importlib.import_module( scenario_name )
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/usr/lib/python2.7/site-packages/blockstack_integration_tests-0.14.1-py2.7.egg/blockstack_integration_tests/scenarios/name_preorder_register_update_atlas_churn.py", line 40, in <module>
+    testlib.Wallet( "5KHqsiU9qa77frZb6hQy9ocV7Sus9RWJcQGYYBJJBb2Efj1o77e", 100000000000 ),
+  File "/usr/lib/python2.7/site-packages/blockstack_integration_tests-0.14.1-py2.7.egg/blockstack_integration_tests/scenarios/testlib.py", line 74, in __init__
+    self.pubkey_hex = pk.public_key().to_hex()                              # coordinate (uncompressed) EC public key
+  File "/usr/lib/python2.7/site-packages/pybitcoin-0.9.9-py2.7.egg/pybitcoin/privatekey.py", line 131, in public_key
+    version_byte=self._pubkeyhash_version_byte)
+  File "/usr/lib/python2.7/site-packages/pybitcoin-0.9.9-py2.7.egg/pybitcoin/publickey.py", line 134, in __init__
+    bin_ecdsa_public_key, self._curve)
+  File "build/bdist.linux-x86_64/egg/ecdsa/keys.py", line 45, in from_string
+  File "build/bdist.linux-x86_64/egg/ecdsa/ecdsa.py", line 201, in point_is_valid
+  File "build/bdist.linux-x86_64/egg/ecdsa/ellipticcurve.py", line 143, in __rmul__
+  File "build/bdist.linux-x86_64/egg/ecdsa/ellipticcurve.py", line 132, in __mul__
+  File "build/bdist.linux-x86_64/egg/ecdsa/ellipticcurve.py", line 161, in double
+  File "build/bdist.linux-x86_64/egg/ecdsa/numbertheory.py", line 196, in inverse_mod
+KeyboardInterrupt
